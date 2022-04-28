@@ -1,32 +1,12 @@
 {
-    "title": "Title of the book here",
+    "title": "O(dieux) Paris",
     "chapters": [
         {
-            "title": "Chapter 1: Introduction",
+            "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame",
             "content": [
                 {
                     "type": "text",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum neque quam, sit amet tempus neque luctus eget. Ut vel rutrum neque, et iaculis quam. Vestibulum facilisis commodo odio, lacinia lobortis nisi aliquet sit amet. Etiam semper gravida erat in vestibulum. Sed a eros accumsan, fermentum libero non, lobortis orci. Aenean aliquet sem ac dui convallis, sit amet scelerisque nunc consequat. Integer fermentum, felis ut viverra laoreet, lacus nulla rutrum lorem, sit amet sodales tortor ex efficitur magna."
-                },
-                {
-                    "type": "text",
-                    "content": "Fusce finibus rhoncus justo, quis aliquam justo gravida et. Proin vel metus orci. Mauris volutpat suscipit sem, a convallis magna tincidunt in. Nullam vestibulum purus eget libero viverra, consequat tempus nibh placerat. Maecenas venenatis, turpis nec gravida dapibus, risus velit commodo magna, id tincidunt nisi nisl a elit. Vestibulum rhoncus nec lorem in tempus. Donec convallis consequat nibh in venenatis. Integer sed neque urna. Integer eleifend metus a risus auctor, in convallis dolor maximus. Phasellus eget malesuada urna. Duis ut ultricies purus, vel feugiat velit. Fusce porttitor tristique maximus."
-                },
-                {
-                    "type": "text",
-                    "content": "Aliquam risus nulla, dignissim ut libero eget, consequat laoreet justo. Mauris efficitur, elit eget laoreet mollis, augue orci malesuada tortor, a condimentum augue nisl a sem. Phasellus bibendum nisi magna, nec cursus nulla pretium et. Ut eu fringilla augue. Nunc condimentum quam nec pretium vestibulum. Pellentesque hendrerit felis mi, sed scelerisque dolor consequat ut. Sed tortor lorem, sagittis vitae sagittis quis, mattis euismod lacus. Etiam porta blandit massa, vel malesuada turpis dictum nec. Pellentesque lobortis cursus turpis eget elementum. Curabitur laoreet congue mi nec vehicula. Aenean tempor lectus id cursus tempor."
-                },
-                {
-                    "type": "text",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum neque quam, sit amet tempus neque luctus eget. Ut vel rutrum neque, et iaculis quam. Vestibulum facilisis commodo odio, lacinia lobortis nisi aliquet sit amet. Etiam semper gravida erat in vestibulum. Sed a eros accumsan, fermentum libero non, lobortis orci. Aenean aliquet sem ac dui convallis, sit amet scelerisque nunc consequat. Integer fermentum, felis ut viverra laoreet, lacus nulla rutrum lorem, sit amet sodales tortor ex efficitur magna."
-                },
-                {
-                    "type": "text",
-                    "content": "Fusce finibus rhoncus justo, quis aliquam justo gravida et. Proin vel metus orci. Mauris volutpat suscipit sem, a convallis magna tincidunt in. Nullam vestibulum purus eget libero viverra, consequat tempus nibh placerat. Maecenas venenatis, turpis nec gravida dapibus, risus velit commodo magna, id tincidunt nisi nisl a elit. Vestibulum rhoncus nec lorem in tempus. Donec convallis consequat nibh in venenatis. Integer sed neque urna. Integer eleifend metus a risus auctor, in convallis dolor maximus. Phasellus eget malesuada urna. Duis ut ultricies purus, vel feugiat velit. Fusce porttitor tristique maximus."
-                },
-                {
-                    "type": "text",
-                    "content": "Aliquam risus nulla, dignissim ut libero eget, consequat laoreet justo. Mauris efficitur, elit eget laoreet mollis, augue orci malesuada tortor, a condimentum augue nisl a sem. Phasellus bibendum nisi magna, nec cursus nulla pretium et. Ut eu fringilla augue. Nunc condimentum quam nec pretium vestibulum. Pellentesque hendrerit felis mi, sed scelerisque dolor consequat ut. Sed tortor lorem, sagittis vitae sagittis quis, mattis euismod lacus. Etiam porta blandit massa, vel malesuada turpis dictum nec. Pellentesque lobortis cursus turpis eget elementum. Curabitur laoreet congue mi nec vehicula. Aenean tempor lectus id cursus tempor."
+                    "content": "C'est une heureuse découverte qu'on réalisé les équipes de reconstructions lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts, datant du XIV siècle selon les premières mesures carbone, aurait été exhumé aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.<br/>Selon les experts, cette cache aurait été réalisée au cours des premiers travaux d'extension de la cathédrale, au XIVe siècle et aurait été oublié depuis."
                 }
             ]
         }
