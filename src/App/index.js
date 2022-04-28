@@ -33,12 +33,14 @@ function App() {
   const [chapterId, setChapterId] = useState("accueil");
   const [chapterTitle, setChapterTitle] = useState("");
   const [chapterContent, setChapterContent] = useState([]);
+  const [additionalData, setAdditionalData] = useState({});
 
   useEffect(() => {
     (async () => {
       const data = await getBook();
       setTitle(data.title);
       setChapters(data.chapters);
+      setAdditionalData(data.additionalData);
     })();
   }, []);
 
@@ -98,7 +100,13 @@ function App() {
           changeChapter={changeChapter}
         />
       )}
-      {chapterId === "accueil" && <Accueil changeChapter={changeChapter} />}
+      {chapterId === "accueil" && (
+        <Accueil
+          changeChapter={changeChapter}
+          additionalData={additionalData || {}}
+          chapters={chapters || []}
+        />
+      )}
     </div>
   );
 }

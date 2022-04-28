@@ -1,12 +1,15 @@
 {
     "title": "O(dieux) Paris",
+    "additionalData": {
+        "nextChapterDate": "2022-05-07"
+    },
     "chapters": [
         {
             "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame",
             "content": [
                 {
                     "type": "text",
-                    "content": "C'est une heureuse découverte qu'on réalisé les équipes de reconstructions lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts, datant du XIV siècle selon les premières mesures carbone, aurait été exhumé aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.<br/>Selon les experts, cette cache aurait été réalisée au cours des premiers travaux d'extension de la cathédrale, au XIVe siècle et aurait été oublié depuis."
+                    "content": "C'est une heureuse découverte qu'on réalisé les équipes de reconstructions lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts, datant du XIV siècle selon les premières mesures carbone, aurait été exhumé aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.<br/>Selon les experts, cette cache aurait été réalisée au cours des premiers travaux d'extension de la cathédrale, au XIVe siècle et aurait été oublié depuis.<br/>Le site fonctionne, la suite arrive bientôt 😉"
                 }
             ]
         }
