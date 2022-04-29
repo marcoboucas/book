@@ -1,17 +1,17 @@
 {
-    "title": "O(dieux) Paris",
-    "additionalData": {
-        "nextChapterDate": "2022-05-07"
-    },
-    "chapters": [
+  "title": "O(dieux) Paris",
+  "additionalData": {
+    "nextChapterDate": "2022-05-07"
+  },
+  "chapters": [
+    {
+      "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame",
+      "content": [
         {
-            "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame",
-            "content": [
-                {
-                    "type": "text",
-                    "content": "C'est une heureuse découverte qu'on réalisé les équipes de reconstructions lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts, datant du XIV siècle selon les premières mesures carbone, aurait été exhumé aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.<br/>Selon les experts, cette cache aurait été réalisée au cours des premiers travaux d'extension de la cathédrale, au XIVe siècle et aurait été oublié depuis.<br/>Le site fonctionne, la suite arrive bientôt 😉"
-                }
-            ]
+          "type": "text",
+          "content": "<i>C'est une heureuse découverte qu'on réalisé les équipes de reconstructions lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts auraient été exhumé aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.</i><br/>Des archéolgoques de l'Inrap, qui fouillent actuellement le site de Notre-Dame avant les travaux de restauration de la flèche, ont exhumé une cache secrète sous la Nef de l'édifice. Selon les experts, le sarcophage mis à jour ainsi que les nombreux artefacts doivent dater du milieu du XIVe siècle.<br/>Selon un communiqué rédigé par le ministère de la Culture, <i>\"le sarcophage en plomb trouvé en parfait état de conservation pourrait appartenir à un haut dignitaire\"</i>. Le contenu de cette cache devrait être transporté avec grande précaution vers un laboratoire proche, afin de procéder en toute sécurité à l'examination de son contenu.<br/>Selon les photos publiées par le ministère, on noterait également la présence des vases religieux, d'une croix en or, de quelques livres précieusement conservés ainsi que d'une faux en parfaite état de conservation. Le ministère ne s'est pour l'instant pas prononcé sur la présence de ces objets, attendant des études plus approfondies avant d'en tirer des conclusions."
         }
-    ]
+      ]
+    }
+  ]
 }
