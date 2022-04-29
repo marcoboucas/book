@@ -41,6 +41,7 @@ const ContentElement = ({ paragraph }) => {
                 display="block"
                 className={classes.text}
                 dangerouslySetInnerHTML={{ __html: cleanContent }}
+                style={paragraph.style || {}}
               ></Typography>
             </Fade>
           );
@@ -55,12 +56,26 @@ const ContentElement = ({ paragraph }) => {
     );
   } else if (paragraph.type === "image") {
     return (
-      <Fade bottom>
-        <img
-          src={paragraph.path}
-          className={classes.image}
-          alt={paragraph.alt || "No description found for this image, sorry 😥"}
-        />
+      <Fade left>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <img
+            src={paragraph.path}
+            className={classes.image}
+            alt={
+              paragraph.alt || "No description found for this image, sorry 😥"
+            }
+            style={{
+              width: paragraph.width || "100%",
+            }}
+          />
+        </div>
       </Fade>
     );
   } else {
