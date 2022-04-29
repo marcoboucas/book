@@ -28,15 +28,28 @@ const Accueil = ({ changeChapter, chapters, additionalData }) => {
   );
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="sm">
       <h2 className={classes.title}>Accueil</h2>
       <p className={classes.text}>Bienvenue sur le site !</p>
+      <p className={classes.text} style={{ fontStyle: "italic" }}>
+        Paris, 2019. La vie poursuit son cours pour Léa, Vincent et Eléonore,
+        qui profitent de leurs vies respectives. Un incendie ravageur, au
+        lendemain d'une découverte mystérieuse. Et des évènements étranges, qui
+        viennent à en perturber le quotidien de nos personnages…
+      </p>
+      <p className={classes.text} style={{ fontWeight: "bold" }}>
+        Cette histoire va éclaircir les évènements qui sont survenus cette
+        année-là et soulever le voile sur certaines vérités que vous préféreriez
+        peut-être qu'elles restent cachées.
+      </p>
       <p className={classes.text}>
-        Cette histoire est en cours d'écriture et comporte actuellement{" "}
+        Cette histoire est encore en cours d'écriture, mais vous pouvez déjà
+        profiter des{" "}
         <span style={{ fontWeight: "bold" }}>
           {Math.min(chapters.length, additionalData.nbrPublicChapters)}
         </span>{" "}
-        chapitres
+        premiers chapitres, et découvrir en même temps que les personnages les
+        mystères qui se cachent dans nos vies.
       </p>
       <div
         style={{
@@ -55,8 +68,8 @@ const Accueil = ({ changeChapter, chapters, additionalData }) => {
         </Button>
       </div>
       <p className={classes.text}>
-        Prochain chapitre dans moins de{" "}
-        <span style={{ fontWeight: "bold" }}>{dayInterval}</span> jours
+        Le chapitre 2 sera terminé dans moins de{" "}
+        <span style={{ fontWeight: "bold" }}>{dayInterval}</span> jours !
       </p>
     </Container>
   );
