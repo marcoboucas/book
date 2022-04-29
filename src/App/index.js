@@ -41,6 +41,7 @@ function App() {
       setTitle(data.title);
       setChapters(data.chapters);
       setAdditionalData(data.additionalData);
+      // setChapterId(0);
     })();
   }, []);
 
@@ -50,6 +51,8 @@ function App() {
       newChapterId === "accueil"
     ) {
       setChapterId(newChapterId);
+    } else if (newChapterId === -1) {
+      setChapterId("accueil");
     }
   };
 

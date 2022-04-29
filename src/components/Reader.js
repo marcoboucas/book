@@ -2,14 +2,14 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 
 import { Typography } from "@material-ui/core";
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Fab from "@material-ui/core/Fab";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import ScrollTop from "./ScrollTop";
 import { Button, ButtonGroup, Toolbar } from "@material-ui/core";
-
+import ContentElement from "./ContentElement";
 const useStyles = makeStyles((theme) => ({
   text: {
     fontSize: "1rem",
@@ -43,7 +43,6 @@ const Reader = ({
   ...props
 }) => {
   const classes = useStyles();
-  const theme = useTheme();
 
   return (
     <Container maxWidth="sm">
@@ -52,30 +51,7 @@ const Reader = ({
         {title}
       </Typography>
       {chapterContent.map((paragraph, index) => {
-        if (paragraph.type === "text") {
-          return (
-            <div key={index} className={classes.text}>
-              {paragraph.content.split("<br/>").map((content, contentIdx) => {
-                return (
-                  <Typography
-                    component="p"
-                    key={contentIdx}
-                    variant="body1"
-                    display="block"
-                    style={{
-                      textAlign: "justify",
-                      whiteSpace: "pre-wrap",
-                      textIndent: theme.spacing(2),
-                    }}
-                  >
-                    {content}
-                  </Typography>
-                );
-              })}
-            </div>
-          );
-        }
-        return <Typography key={index} className={classes.text}></Typography>;
+        return <ContentElement key={index} paragraph={paragraph} />;
       })}
       <div className={classes.bottomButtons}>
         <ButtonGroup
