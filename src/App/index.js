@@ -42,7 +42,7 @@ function App() {
       setTitle(data.title);
       setChapters(data.chapters);
       setAdditionalData(data.additionalData);
-      setChapterId(1);
+      // setChapterId(1);
     })();
   }, []);
 
