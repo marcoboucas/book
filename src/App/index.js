@@ -1,5 +1,5 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
@@ -10,6 +10,7 @@ import Reader from "../components/Reader";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import Accueil from "../pages/accueil";
+import ProgressBar from "react-scroll-progress-bar"; //Add this line
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,13 +42,15 @@ function App() {
       setTitle(data.title);
       setChapters(data.chapters);
       setAdditionalData(data.additionalData);
-      // setChapterId(0);
+      setChapterId(1);
     })();
   }, []);
 
   const changeChapter = (newChapterId) => {
     if (
-      (newChapterId >= 0 && newChapterId < chapters.length) ||
+      (newChapterId >= 0 &&
+        newChapterId <
+          Math.min(chapters.length, additionalData.nbrPublicChapters)) ||
       newChapterId === "accueil"
     ) {
       setChapterId(newChapterId);
@@ -67,6 +70,8 @@ function App() {
       setChapterContent(chapters[chapterId].content);
     }
   }, [chapterId, chapters]);
+
+  const theme = useTheme();
   return (
     <div className="App">
       <AppBar position="static">
@@ -87,11 +92,12 @@ function App() {
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
+        <ProgressBar bgcolor={theme.palette.primary.main} />
       </AppBar>
       <BookDrawer
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
-        chapters={chapters || []}
+        chapters={chapters.slice(0, additionalData.nbrPublicChapters) || []}
         changeChapter={changeChapter}
       />
       <nav></nav>

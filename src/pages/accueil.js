@@ -33,7 +33,10 @@ const Accueil = ({ changeChapter, chapters, additionalData }) => {
       <p className={classes.text}>Bienvenue sur le site !</p>
       <p className={classes.text}>
         Cette histoire est en cours d'écriture et comporte actuellement{" "}
-        <span style={{ fontWeight: "bold" }}>{chapters.length}</span> chapitres
+        <span style={{ fontWeight: "bold" }}>
+          {Math.min(chapters.length, additionalData.nbrPublicChapters)}
+        </span>{" "}
+        chapitres
       </p>
       <div
         style={{

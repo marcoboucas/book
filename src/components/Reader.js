@@ -10,6 +10,8 @@ import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import ScrollTop from "./ScrollTop";
 import { Button, ButtonGroup, Toolbar } from "@material-ui/core";
 import ContentElement from "./ContentElement";
+import Fade from "react-reveal/Fade";
+
 const useStyles = makeStyles((theme) => ({
   text: {
     fontSize: "1rem",
@@ -53,29 +55,31 @@ const Reader = ({
       {chapterContent.map((paragraph, index) => {
         return <ContentElement key={index} paragraph={paragraph} />;
       })}
-      <div className={classes.bottomButtons}>
-        <ButtonGroup
-          variant="contained"
-          color="primary"
-          aria-label="contained primary button group"
-        >
-          <Button
-            onClick={() => {
-              changeChapter(chapterId - 1);
-            }}
+      <Fade bottom>
+        <div className={classes.bottomButtons}>
+          <ButtonGroup
+            variant="contained"
+            color="primary"
+            aria-label="contained primary button group"
           >
-            <KeyboardArrowLeftIcon />
-          </Button>
-          <Button>Chapitre {chapterId + 1}</Button>
-          <Button
-            onClick={() => {
-              changeChapter(chapterId + 1);
-            }}
-          >
-            <KeyboardArrowRightIcon />
-          </Button>
-        </ButtonGroup>
-      </div>
+            <Button
+              onClick={() => {
+                changeChapter(chapterId - 1);
+              }}
+            >
+              <KeyboardArrowLeftIcon />
+            </Button>
+            <Button>Chapitre {chapterId + 1}</Button>
+            <Button
+              onClick={() => {
+                changeChapter(chapterId + 1);
+              }}
+            >
+              <KeyboardArrowRightIcon />
+            </Button>
+          </ButtonGroup>
+        </div>
+      </Fade>
       <ScrollTop {...props}>
         <Fab color="secondary" size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
