@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom';
-import { Button, makeStyles, Container } from '@material-ui/core';
+import {
+  Button, makeStyles, Container, ListItem, List, ListItemText, ListSubheader,
+} from '@material-ui/core';
 import React from 'react';
 
 import { useSelector } from 'react-redux';
@@ -74,12 +76,33 @@ function Accueil() {
         </Button>
       </div>
       <p className={classes.text}>
-        Le chapitre 2 sera terminé dans moins de
+        Le chapitre 3 sera terminé dans moins de
         {' '}
         <span style={{ fontWeight: 'bold' }}>{dayInterval}</span>
         {' '}
         jours !
       </p>
+      <List subheader={(
+        <ListSubheader button component="div" id="nested-list-subheader">
+          Chapitres disponibles
+        </ListSubheader>
+      )}
+      >
+        {chapters.map((chapter, index) => (
+          <ListItem
+            key={index}
+            component={Link}
+            to={`/chapitre/${index}`}
+          >
+
+            <ListItemText
+              primary={`Chapitre ${index + 1}`}
+              secondary={chapter.title}
+            />
+
+          </ListItem>
+        ))}
+      </List>
     </Container>
   );
 }
