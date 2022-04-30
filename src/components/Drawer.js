@@ -115,6 +115,7 @@ function BookDrawer({
           button
           component={Link}
           to="/"
+          onClick={handleDrawerClose}
         >
           {/* <ListItemIcon><InboxIcon /></ListItemIcon> */}
           <ListItemText primary="Accueil" />

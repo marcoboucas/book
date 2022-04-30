@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <CssBaseline />
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/book">
         <Provider store={store}>
           <App />
         </Provider>

@@ -11,7 +11,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import BookDrawer from './components/Drawer';
 import { getBook } from './app/functions/data';
 import Reader from './pages/Reader';
-import Accueil from './pages/accueil';
+import Accueil from './pages/Accueil';
 import { updateBook } from './app/slices/bookSlice';
 
 const useStyles = makeStyles((theme) => ({
