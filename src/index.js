@@ -14,11 +14,12 @@ root.render(
   <React.StrictMode>
     <CssBaseline />
     <ThemeProvider theme={theme}>
-      <HashRouter>
-        <Provider store={store}>
+      <Provider store={store}>
+        <HashRouter>
           <App />
-        </Provider>
-      </HashRouter>
+
+        </HashRouter>
+      </Provider>
     </ThemeProvider>
   </React.StrictMode>,
 );

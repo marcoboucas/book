@@ -29,7 +29,7 @@ function ContentElement({ paragraph }) {
     // Split at br to make some tab for new paragraphs
     return (
       <>
-        {paragraph.content.split('<br/>').map((line, index) => {
+        {(paragraph.content || '').split('<br/>').map((line, index) => {
           const cleanContent = sanitizeHtml(line, {
             allowedTags: ['b', 'i', 'em', 'strong', 'center'],
           });

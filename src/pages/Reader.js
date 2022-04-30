@@ -12,11 +12,12 @@ import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import Fade from 'react-reveal/Fade';
 import { useSelector, useDispatch } from 'react-redux';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import ScrollTop from '../components/ScrollTop';
 import { updateChapter } from '../app/slices/chapterSlice';
 import ContentElement from '../components/ContentElement';
 import { getChapter } from '../app/functions/data';
+import resetScroll from '../app/functions/scroll';
 
 const useStyles = makeStyles((theme) => ({
   text: {
@@ -46,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
 function Reader() {
   const classes = useStyles();
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const chapters = useSelector((state) => state.book.chapters);
   const title = useSelector((state) => state.chapter.title);
@@ -60,7 +62,10 @@ function Reader() {
       (async () => {
         const data = await getChapter(chapters[id].contentFile);
         dispatch(updateChapter(data));
+        resetScroll();
       })();
+    } else {
+      navigate('/');
     }
   }, [id, chapterId, nbrChapters]);
 
