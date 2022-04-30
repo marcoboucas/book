@@ -1,0 +1,17 @@
+{
+  "title": "O(dieux) Paris",
+  "additionalData": {
+    "nextChapterDate": "2022-05-07",
+    "nbrPublicChapters": 2
+  },
+  "chapters": [
+    {
+      "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame",
+      "contentFile": "0.json"
+    },
+    {
+      "title": "Un travail intense mais chouette",
+      "contentFile": "1.json"
+    }
+  ]
+}

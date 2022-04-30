@@ -1,23 +1,25 @@
-import React from "react";
+import React from 'react';
 
-import { Drawer } from "@material-ui/core";
-import List from "@material-ui/core/List";
-import Divider from "@material-ui/core/Divider";
-import IconButton from "@material-ui/core/IconButton";
-import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { Drawer } from '@material-ui/core';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import IconButton from '@material-ui/core/IconButton';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 
 const drawerWidth = 300;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: "flex",
+    display: 'flex',
   },
   appBar: {
-    transition: theme.transitions.create(["margin", "width"], {
+    transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
@@ -25,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
-    transition: theme.transitions.create(["margin", "width"], {
+    transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
     }),
@@ -34,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   hide: {
-    display: "none",
+    display: 'none',
   },
   drawer: {
     width: drawerWidth,
@@ -44,42 +46,45 @@ const useStyles = makeStyles((theme) => ({
     width: drawerWidth,
   },
   drawerHeader: {
-    display: "flex",
-    alignItems: "center",
+    display: 'flex',
+    alignItems: 'center',
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
-    justifyContent: "flex-end",
+    justifyContent: 'flex-end',
   },
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
-    transition: theme.transitions.create("margin", {
+    transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
     marginLeft: -drawerWidth,
   },
   contentShift: {
-    transition: theme.transitions.create("margin", {
+    transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
     }),
     marginLeft: 0,
   },
   listItem: {
-    textOverflow: "ellipsis",
-    whiteSpace: "nowrap",
-    overflow: "hidden",
-    "& > *": {
-      display: "contents",
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    '& > *': {
+      display: 'contents',
     },
   },
 }));
 
-const BookDrawer = ({ menuOpen, setMenuOpen, chapters, changeChapter }) => {
+function BookDrawer({
+  menuOpen, setMenuOpen,
+}) {
   const classes = useStyles();
   const theme = useTheme();
+  const chapters = useSelector((state) => state.book.chapters);
 
   const handleDrawerClose = () => {
     setMenuOpen(false);
@@ -97,7 +102,7 @@ const BookDrawer = ({ menuOpen, setMenuOpen, chapters, changeChapter }) => {
     >
       <div className={classes.drawerHeader}>
         <IconButton onClick={handleDrawerClose}>
-          {theme.direction === "ltr" ? (
+          {theme.direction === 'ltr' ? (
             <ChevronLeftIcon />
           ) : (
             <ChevronRightIcon />
@@ -108,13 +113,11 @@ const BookDrawer = ({ menuOpen, setMenuOpen, chapters, changeChapter }) => {
       <List>
         <ListItem
           button
-          onClick={() => {
-            changeChapter("accueil");
-            setMenuOpen(false);
-          }}
+          component={Link}
+          to="/"
         >
           {/* <ListItemIcon><InboxIcon /></ListItemIcon> */}
-          <ListItemText primary={"Accueil"} />
+          <ListItemText primary="Accueil" />
         </ListItem>
       </List>
       <Divider />
@@ -123,14 +126,13 @@ const BookDrawer = ({ menuOpen, setMenuOpen, chapters, changeChapter }) => {
           <ListItem
             button
             key={index}
-            onClick={() => {
-              changeChapter(index);
-              setMenuOpen(false);
-            }}
+            component={Link}
+            to={`/chapitre/${index}`}
+            onClick={handleDrawerClose}
           >
             {/* <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon> */}
             <ListItemText
-              primary={index + 1 + " - " + chapter.title}
+              primary={`${index + 1} - ${chapter.title}`}
               className={classes.listItem}
             />
           </ListItem>
@@ -139,5 +141,5 @@ const BookDrawer = ({ menuOpen, setMenuOpen, chapters, changeChapter }) => {
       <Divider />
     </Drawer>
   );
-};
+}
 export default BookDrawer;

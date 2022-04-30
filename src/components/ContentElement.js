@@ -1,37 +1,37 @@
-import sanitizeHtml from "sanitize-html";
-import { Typography } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core";
-import React from "react";
-import { Divider } from "@material-ui/core";
-import Fade from "react-reveal/Fade";
+import sanitizeHtml from 'sanitize-html';
+import { Typography, makeStyles, Divider } from '@material-ui/core';
+
+import React from 'react';
+
+import Fade from 'react-reveal/Fade';
 
 const useStyles = makeStyles((theme) => ({
   text: {
-    textAlign: "justify",
-    whiteSpace: "pre-wrap",
+    textAlign: 'justify',
+    whiteSpace: 'pre-wrap',
     textIndent: theme.spacing(2),
   },
   separator: {
     marginTop: theme.spacing(2),
     marginBottom: theme.spacing(2),
-    width: "50%",
-    marginLeft: "auto",
-    marginRight: "auto",
+    width: '50%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
   image: {
     margin: theme.spacing(2, 0),
-    maxWidth: "100%",
+    maxWidth: '100%',
   },
 }));
-const ContentElement = ({ paragraph }) => {
+function ContentElement({ paragraph }) {
   const classes = useStyles();
-  if (paragraph.type === "text") {
+  if (paragraph.type === 'text') {
     // Split at br to make some tab for new paragraphs
     return (
-      <React.Fragment>
-        {paragraph.content.split("<br/>").map((line, index) => {
+      <>
+        {paragraph.content.split('<br/>').map((line, index) => {
           const cleanContent = sanitizeHtml(line, {
-            allowedTags: ["b", "i", "em", "strong", "center"],
+            allowedTags: ['b', 'i', 'em', 'strong', 'center'],
           });
           return (
             <Fade opposite cascade key={index}>
@@ -42,45 +42,44 @@ const ContentElement = ({ paragraph }) => {
                 className={classes.text}
                 dangerouslySetInnerHTML={{ __html: cleanContent }}
                 style={paragraph.style || {}}
-              ></Typography>
+              />
             </Fade>
           );
         })}
-      </React.Fragment>
+      </>
     );
-  } else if (paragraph.type === "separator") {
+  } if (paragraph.type === 'separator') {
     return (
       <Fade bottom>
         <Divider variant="middle" className={classes.separator} />
       </Fade>
     );
-  } else if (paragraph.type === "image") {
+  } if (paragraph.type === 'image') {
     return (
       <Fade left>
         <div
           style={{
-            width: "100%",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            width: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
         >
           <img
             src={paragraph.path}
             className={classes.image}
             alt={
-              paragraph.alt || "No description found for this image, sorry 😥"
+              paragraph.alt || 'No description found for this image, sorry 😥'
             }
             style={{
-              width: paragraph.width || "100%",
+              width: paragraph.width || '100%',
             }}
           />
         </div>
       </Fade>
     );
-  } else {
-    return <div>Unknown</div>;
   }
-};
+  return <div>Unknown</div>;
+}
 
 export default ContentElement;
