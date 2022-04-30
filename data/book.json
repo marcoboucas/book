@@ -12,6 +12,14 @@
     {
       "title": "Un travail intense mais chouette",
       "contentFile": "1.json"
+    },
+    {
+      "title": "Le poids de la connaissance",
+      "contentFile": "2.json"
+    },
+    {
+      "title": "Un incendie suspect",
+      "contentFile": "3.json"
     }
   ]
 }
