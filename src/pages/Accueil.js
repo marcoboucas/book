@@ -2,9 +2,10 @@
 import { Link } from 'react-router-dom';
 import {
   Button, makeStyles, Container, ListItem, List, ListItemText, ListSubheader,
+  Grid,
 } from '@material-ui/core';
 import React from 'react';
-
+import { Fade } from 'react-reveal';
 import { useSelector } from 'react-redux';
 
 const useStyles = makeStyles((theme) => ({
@@ -20,6 +21,11 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: 'Roboto',
     fontWeight: 'bold',
     fontSize: theme.spacing(3),
+  },
+  couverture: {
+    width: '100%',
+    maxWidth: 250,
+    position: 'float',
   },
 }));
 function Accueil() {
@@ -37,18 +43,29 @@ function Accueil() {
   return (
     <Container maxWidth="sm">
       <h2 className={classes.title}>Accueil</h2>
-      <p className={classes.text}>Bienvenue sur le site !</p>
-      <p className={classes.text} style={{ fontStyle: 'italic' }}>
-        Paris, 2019. La vie poursuit son cours pour Léa, Vincent et Eléonore,
-        qui profitent de leurs vies respectives. Un incendie ravageur, au
-        lendemain d'une découverte mystérieuse. Et des évènements étranges, qui
-        viennent à en perturber le quotidien de nos personnages…
-      </p>
-      <p className={classes.text} style={{ fontWeight: 'bold' }}>
-        Cette histoire va éclaircir les évènements qui sont survenus cette
-        année-là et soulever le voile sur certaines vérités que vous préféreriez
-        peut-être qu'elles restent cachées.
-      </p>
+      <Grid container>
+        <Grid item xs={12} md={6}>
+          <Fade>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src="/book/images/couverture.png" alt="couverture" className={classes.couverture} />
+            </div>
+          </Fade>
+        </Grid>
+        <Grid xs={12} md={6}>
+
+          <p className={classes.text} style={{ fontStyle: 'italic' }}>
+            Paris, 2019. La vie poursuit son cours pour Léa, Vincent et Eléonore,
+            qui profitent de leurs vies respectives. Un incendie ravageur, au
+            lendemain d'une découverte mystérieuse. Et des évènements étranges, qui
+            viennent à en perturber le quotidien de nos personnages…
+          </p>
+          <p className={classes.text} style={{ fontWeight: 'bold' }}>
+            Cette histoire va éclaircir les évènements qui sont survenus cette
+            année-là et soulever le voile sur certaines vérités que vous préféreriez
+            peut-être qu'elles restent cachées.
+          </p>
+        </Grid>
+      </Grid>
       <p className={classes.text}>
         Cette histoire est encore en cours d'écriture, mais vous pouvez déjà
         profiter des
@@ -82,6 +99,7 @@ function Accueil() {
         {' '}
         jours !
       </p>
+
       <List subheader={(
         <ListSubheader button component="div" id="nested-list-subheader">
           Chapitres disponibles
