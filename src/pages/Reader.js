@@ -64,41 +64,42 @@ function Reader() {
     }
   }, [id, chapterId, nbrChapters]);
 
+  const menuButtons = (
+    <div className={classes.bottomButtons}>
+      <ButtonGroup
+        variant="contained"
+        color="primary"
+        aria-label="contained primary button group"
+      >
+        <Button
+          component={Link}
+          to={chapterId !== 0 ? `/chapitre/${chapterId - 1}` : '/'}
+        >
+          <KeyboardArrowLeftIcon />
+        </Button>
+        <Button>
+          Chapitre
+          {' '}
+          {chapterId + 1}
+        </Button>
+        <Button
+          component={Link}
+          to={chapterId < nbrChapters ? `/chapitre/${chapterId + 1}` : '/'}
+        >
+          <KeyboardArrowRightIcon />
+        </Button>
+      </ButtonGroup>
+    </div>
+  );
   return (
     <Container maxWidth="sm">
       <Toolbar id="back-to-top-anchor" />
       <Typography component="h2" className={classes.title}>
         {title}
       </Typography>
+      <Fade>{menuButtons}</Fade>
       {chapterContent.map((paragraph, index) => <ContentElement key={index} paragraph={paragraph} />)}
-      <Fade bottom>
-        <div className={classes.bottomButtons}>
-          <ButtonGroup
-            variant="contained"
-            color="primary"
-            aria-label="contained primary button group"
-          >
-            <Button
-              component={Link}
-              to={chapterId !== 0 ? `/chapitre/${chapterId - 1}` : '/'}
-
-            >
-              <KeyboardArrowLeftIcon />
-            </Button>
-            <Button>
-              Chapitre
-              {' '}
-              {chapterId + 1}
-            </Button>
-            <Button
-              component={Link}
-              to={chapterId < nbrChapters ? `/chapitre/${chapterId + 1}` : '/'}
-            >
-              <KeyboardArrowRightIcon />
-            </Button>
-          </ButtonGroup>
-        </div>
-      </Fade>
+      <Fade bottom>{menuButtons}</Fade>
       <ScrollTop>
         <Fab color="secondary" size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />

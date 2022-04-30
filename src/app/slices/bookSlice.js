@@ -14,7 +14,9 @@ export const bookSlice = createSlice({
     updateBook: (state, action) => {
       state.title = action.payload.title;
       state.additionalData = action.payload.additionalData;
-      state.chapters = action.payload.chapters;
+      if (state.additionalData.nbrPublicChapters > 0) {
+        state.chapters = action.payload.chapters.slice(0, state.additionalData.nbrPublicChapters);
+      }
     },
   },
 });
