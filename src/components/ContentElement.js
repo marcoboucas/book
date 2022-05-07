@@ -32,6 +32,9 @@ function ContentElement({ paragraph }) {
         {(paragraph.content || '').split('<br/>').map((line, index) => {
           const cleanContent = sanitizeHtml(line, {
             allowedTags: ['b', 'i', 'em', 'strong', 'center'],
+            allowedAttributes: {
+              '*': ['style'],
+            },
           });
           return (
             <Fade opposite cascade key={index}>

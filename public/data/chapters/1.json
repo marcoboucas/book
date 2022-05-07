@@ -19,6 +19,7 @@
         },
         {
             "type": "image",
+            "width": "100%",
             "path": "https://cdn.pixabay.com/photo/2017/04/07/01/01/bar-2209813_1280.jpg",
             "alt": "A bar by night"
         },
@@ -57,8 +58,9 @@
         },
         {
             "type": "image",
+            "width": "50%",
             "path": "/book/images/lea.png",
-            "width": "50%"
+            "alt": "Un portrait de Léa"
         },
         {
             "type": "text",
@@ -76,7 +78,7 @@
         },
         {
             "type": "text",
-            "content": "Cette phrase la fit revenir à la réalité instantanément et réintégrer son corps. elle se fraya un passage à coups de <i>\"pardon\"</i>, <i>\"excusez-moi\"</i> et s'échappa de justesse avant la fermeture des portes. À force de divaguer, elle avait failli en oublier de descendre à son arrêt. <i>\"Ce n'est pas bon ça, ma vieille… Si en plus tu loupes ton arrêt, ton retard va finir par se remarquer …\"</i>."
+            "content": "Cette phrase la fit revenir à la réalité instantanément et réintégrer son corps. Elle se fraya un passage à coups de <i>\"pardon\"</i>, <i>\"excusez-moi\"</i> et s'échappa de justesse avant la fermeture des portes. À force de divaguer, elle avait failli en oublier de descendre à son arrêt. <i>\"Ce n'est pas bon ça, ma vieille… Si en plus tu loupes ton arrêt, ton retard va finir par se remarquer …\"</i>."
         },
         {
             "type": "text",
@@ -107,19 +109,20 @@
         },
         {
             "type": "text",
-            "content": "L'ordinateur lancé, elle se mit au travail …<br/>De l'extérieur, on ne voyait à travers les vitres que la vague forme de l'énorme érable qui siégeait au centre de la cour. Encerclé par les rangées de bâtiment, ce titan rivalisait de hauteur pour capter les maigres rayons de soleil qui arrivaient à s'infiltrer. C'était un très vieux spécimen, au branchage épais. Pourtant, si l'on regardait avec beaucoup d'attention, caché sous ce camouflage de verdure, une sorte de petite cabane pouvait être aperçue. De construction animale, il hébergeait depuis plusieurs années une chouette effraie, qui était rapidement devenue une mascotte des bâtiments. Elle était même pourvue d'un petit nom: <i>Tess</i>. "
+            "content": "L'ordinateur lancé, elle se mit au travail …<br/>De l'extérieur, on ne voyait à travers les vitres que la vague forme de l'énorme érable qui siégeait au centre de la cour. Encerclé par les rangées de bâtiment, ce titan rivalisait de hauteur pour capter les maigres rayons de soleil qui arrivaient à s'infiltrer. C'était un très vieux spécimen, au branchage épais. Pourtant, si l'on regardait avec beaucoup d'attention, caché sous ce camouflage de verdure, une sorte de petite cabane pouvait être aperçue. De construction animale, il hébergeait depuis plusieurs années une chouette effraie, qui était rapidement devenue une mascotte des bâtiments. Elle était même pourvue d'un petit nom : <i>Tess</i>."
         },
         {
             "type": "image",
-            "alt": "Feuiles d'érable",
-            "path": "https://static.cotemaison.fr/medias_11338/w_1815,h_1362,c_crop,x_116,y_0/w_1080,h_600,c_fill,g_north/v1487797108/erable_5805383.jpg"
+            "width": "100%",
+            "path": "https://static.cotemaison.fr/medias_11338/w_1815,h_1362,c_crop,x_116,y_0/w_1080,h_600,c_fill,g_north/v1487797108/erable_5805383.jpg",
+            "alt": "Feuiles d'érable"
         },
         {
             "type": "separator"
         },
         {
             "type": "text",
-            "content": "Une fois son rapport fini et un rapide sandwich thon-crudité englouti, il ne restait plus qu'à Léa de préparer la présentation qu'elle allait devoir réaliser demain. Une fois de plus, l'enjeu important la laissa démunie quelques instants, avant que son esprit reprenne contrôle de la situation lance le logiciel et commence à structurer la forme qu'allait prendre cette dernière. Elle passa ainsi son après-midi à écrire des titres, créer des petits schémas et affiner sa présentation. C'était dans une certaine mesure la même chose que de devoir réaliser un album photo, si on excluait les enjeux, et elle s'appliqua à réaliser quelque chose de propre et facile à comprendre.<br/>Son après-midi passa très vite, entrecoupé par les hululements de Tess, qui la sortait quelques instants de son intense concentration et lui permettait de faire une petite pause.<br/>C'est d'ailleurs un hululement de cette dernière qui lui fit réaliser qu'il était déjà tard, que sa présentation était déjà bien prête et qui sonna donc le gong de cette journée intensive. Les derniers rayons dorés du soleil se reflétaient sur les plus hautes fenêtres de la cour, créant une ambiance douce de fin de journée, illuminant l'érable à la papure d'automne.<br/>Comment pour confirmer cette fin de journée, elle fut saisie d'un profond baîllement tandis qu'elle regardait autour d'elle, atterrissant doucement dans la réalité. Elle rangea rapidement ses affaires avant de se diriger vers la sorte. Un dernier hululement retenti depuis la cour, comme un <i>au revoir</i>."
+            "content": "Une fois son rapport fini et un rapide sandwich thon-crudité englouti, il ne restait plus qu'à Léa de préparer la présentation qu'elle allait devoir réaliser demain. Une fois de plus, l'enjeu important la laissa démunie quelques instants, avant que son esprit reprenne contrôle de la situation lance le logiciel et commence à structurer la forme qu'allait prendre cette dernière. Elle passa ainsi son après-midi à écrire des titres, créer des petits schémas et affiner sa présentation. C'était dans une certaine mesure la même chose que de devoir réaliser un album photo, si on excluait les enjeux, et elle s'appliqua à réaliser quelque chose de propre et facile à comprendre.<br/>Son après-midi passa très vite, entrecoupé par les hululements de Tess, qui la sortait quelques instants de son intense concentration et lui permettait de faire une petite pause.<br/>C'est d'ailleurs un hululement de cette dernière qui lui fit réaliser qu'il était déjà tard, que sa présentation était déjà bien prête et qui sonna donc le gong de cette journée intensive. Les derniers rayons dorés du soleil se reflétaient sur les plus hautes fenêtres de la cour, créant une ambiance douce de fin de journée, illuminant l'érable à la parure d'automne.<br/>Comment pour confirmer cette fin de journée, elle fut saisie d'un profond bâillement tandis qu'elle regardait autour d'elle, atterrissant doucement dans la réalité. Elle rangea rapidement ses affaires avant de se diriger vers la sorte. Un dernier hululement retenti depuis la cour, comme un <i>au revoir</i>."
         },
         {
             "type": "text",
@@ -127,7 +130,7 @@
         },
         {
             "type": "text",
-            "content": "Un flash s'accapara son regard quelques instants, la détournant de ses idées en cours. Elle avait presque atteint sa destination, et ce flash n'était rien d'autre que la porte de la librairie du coin de sa rue, qu'un client venait de fermer en entrant. <i>\"Encore mieux …\", pensa-t-elle, \" un bon livre pour occuper le week-end et se changer d'air\"</i>. Poussée par cette idée, elle changea de trottoir et se dirigea vers la librairie. Et sans aucune hésitation poussa la porte et entra …"
+            "content": "Un flash accapara son regard quelques instants, la détournant de ses idées en cours. Elle avait presque atteint sa destination, et ce flash n'était rien d'autre que la porte de la librairie du coin de sa rue, qu'un client venait de fermer en entrant. <i>\"Encore mieux …\", pensa-t-elle, \" un bon livre pour occuper le week-end et se changer d'air\"</i>. Poussée par cette idée, elle changea de trottoir et se dirigea vers la librairie. Et sans aucune hésitation poussa la porte et entra …"
         }
     ]
 }
