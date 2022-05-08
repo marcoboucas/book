@@ -93,7 +93,7 @@ function Accueil() {
         </Button>
       </div>
       <p className={classes.text}>
-        Le chapitre 3 sera terminé dans moins de
+        Le chapitre 4 sera terminé dans moins de
         {' '}
         <span style={{ fontWeight: 'bold' }}>{dayInterval}</span>
         {' '}
