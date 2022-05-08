@@ -67,6 +67,7 @@ Chargé d'un carton de taille moyenne, mais dont le poids indiquait qu'il était
 
 ==separator
 
+==text
 Alors qu'il approchait de la partie la plus ancienne de la librairie, où les ouvrages sentaient parfois légèrement le renfermé et où l'odeur de reliures en cuir pouvait se faire sentir par endroits, un frisson parcouru l'entièreté de sa colonne vertébrale. Il tourna la tête, à la recherche de la source d'un tel phénomène, sans rien remarquer d'anormal. <i>"Ça doit être un courant d'air, encore un client qui laisse la porte d'entrée ouverte trop longtemps"</i>, en conclut-il tout en retournant à sa tâche.
 Mais alors qu'il se dirigeait vers la zone la plus dense de l'étagère, un second frisson se fit ressentir. Alors qu'il se retournait, cette fois-ci bien décidé à trouver la source de cet effet, il remarqua une femme qui s'approchait de lui, aux grandes lunettes rondes et marrons. D'un certain âge, que seuls quelques fossettes trahissaient, elle était grande et fine, et étaient entièrement vêtue de vert sombre. Derrière les grandes lunettes, des yeux vifs et perçants, analysant chaque détail tandis qu'elle s'approchait de lui.
 - Pourriez-vous m'aider, jeune homme ?
@@ -79,7 +80,7 @@ La femme fixa ses yeux sur lui pendant quelques secondes, avant de finalement pr
 - Oui … Il se pourrait bien que vous vous révéleriez utile mon cher Vincent. Je cherche un livre en particulier, qui traiterait des artefacts et reliques qui feraient surface au travers des différents mythes et légendes. Auriez-vous quelque livre d'un auteur qui en aurait fait son sujet de prédilection ?
 Vincent se creusa la tête … Le sujet lui rappelait bien quelque chose, et il mit quelques instants à fouiller dans sa mémoire le nom de l'auteur ou du tome associé … S'éloignant de l'étagère, il se dirigea vers l'une des tables au centre de la pièce, à la recherche du livre recherché …
 
-== separator
+==separator
 
 ==text
 Un crac se fit entendre au moment où l'une des fixations des étagères céda sous le poids des ouvrages empilés dessus. Tourné à la scène, Vincent ne pu saisir qu'un flash de l'action qui se déroula derrière lui. Un tsunami d'ouvrage de toutes sortes déferla à l'endroit où il se trouvait quelques minutes auparavant, ravageant en même temps l'échelle qui était adossée à cet endroit sous le poids de toutes ces sources de connaissances.
