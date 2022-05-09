@@ -21,7 +21,7 @@ Vincent se souvenait encore de ce jour, comme gravé dans sa mémoire. Il avait 
 Pierre Ferrand avait alors fait une moue satisfaite avant de lui proposer de travailler chez lui de temps en temps. Cela faisait maintenant deux ans que Vincent travaillait dans la boutique et ils ne le regrettaient pas tous les deux.
 
 ==image
-path: https://p2.piqsels.com/preview/223/532/842/books-library-education-literature.jpg
+path: /book/images/librairie.webp
 alt: Une librairie
 
 ==separator

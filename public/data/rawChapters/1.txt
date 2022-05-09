@@ -14,7 +14,7 @@ Se lever avec une envie de meurtre, ce n'était pas forcément la manière idéa
 ==separator
 
 ==image
-path: https://cdn.pixabay.com/photo/2017/04/07/01/01/bar-2209813_1280.jpg
+path: /book/images/bar.webp
 alt: A bar by night
 
 ==text
@@ -84,7 +84,7 @@ Cette journée n'avait pas commencé de la meilleure des manières, et cette nou
 L'ordinateur lancé, elle se mit au travail …<br/>De l'extérieur, on ne voyait à travers les vitres que la vague forme de l'énorme érable qui siégeait au centre de la cour. Encerclé par les rangées de bâtiment, ce titan rivalisait de hauteur pour capter les maigres rayons de soleil qui arrivaient à s'infiltrer. C'était un très vieux spécimen, au branchage épais. Pourtant, si l'on regardait avec beaucoup d'attention, caché sous ce camouflage de verdure, une sorte de petite cabane pouvait être aperçue. De construction animale, il hébergeait depuis plusieurs années une chouette effraie, qui était rapidement devenue une mascotte des bâtiments. Elle était même pourvue d'un petit nom : <i>Tess</i>.
 
 ==image
-path: https://static.cotemaison.fr/medias_11338/w_1815,h_1362,c_crop,x_116,y_0/w_1080,h_600,c_fill,g_north/v1487797108/erable_5805383.jpg
+path: /book/images/erable.webp
 alt: Feuiles d'érable
 
 ==separator

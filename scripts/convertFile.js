@@ -1,5 +1,5 @@
+/* eslint-disable no-console */
 const fs = require('fs');
-const path = require('path');
 
 const splitLines = (text) => {
   const data = {};
@@ -11,6 +11,7 @@ const splitLines = (text) => {
       let value = line.slice(key.length + 1).trim();
       try {
         value = JSON.parse(value);
+      // eslint-disable-next-line no-empty
       } catch (e) {}
       data[key] = value;
     }
@@ -26,6 +27,7 @@ const generateContentElement = (paragraphType, paragraphContent) => {
     if (style) {
       const styleString = paragraphContent.slice(style.index + style[0].length, -2);
       additionalData.style = splitLines(styleString);
+      // eslint-disable-next-line no-param-reassign
       paragraphContent = paragraphContent.slice(0, style.index);
     }
     return {
@@ -92,7 +94,7 @@ fs.readdir('./public/data/rawChapters', (err, files) => {
     console.error(err);
     return;
   }
-  files.forEach((file) => {
+  files.sort().forEach((file) => {
     if (file.endsWith('.txt')) {
       convertChapterData(`./public/data/rawChapters/${file}`);
     }
