@@ -36,7 +36,7 @@
         {
             "type": "image",
             "width": "50%",
-            "path": "/book/images/vincent.jpg",
+            "path": "/book/images/vincent.webp",
             "alt": "Un portrait de Vincent"
         },
         {
