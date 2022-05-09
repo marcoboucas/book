@@ -36,7 +36,7 @@ function Accueil() {
 
   const currentDate = new Date(Date.now());
   const nextChapterDate = new Date(additionalData.nextChapterDate);
-  const dayInterval = Math.floor(
+  const dayInterval = Math.ceil(
     (nextChapterDate - currentDate) / (60 * 60 * 24 * 1000),
   );
 
