@@ -1,0 +1,12 @@
+id:3
+title: Un incendie suspect
+==content
+==text
+<i><strong>Le 15 avril 2019</strong></i>
+
+==image
+path:/book/images/notre-dame-burning.webp
+alt: Incendie de Notre-Dame, le 15 avril 2019
+
+==text
+<i><strong>Ce </strong></i>
