@@ -47,7 +47,7 @@ function Accueil() {
         <Grid item xs={12} md={6}>
           <Fade>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <img src="/book/images/couverture.png" alt="couverture" className={classes.couverture} />
+              <img src="/book/images/couverture.webp" alt="couverture" className={classes.couverture} />
             </div>
           </Fade>
         </Grid>

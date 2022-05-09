@@ -42,7 +42,7 @@ Ouvrir la porte de l'immeuble, marcher quelques minutes d'un pas pressé typique
 Si quelqu'un la regardait à ce moment-là, il aurait vu une jeune femme aux longs cheveux bruns tombant sur ses épaules et quelques mèches de temps en temps rebelles qui s'amusaient à lui cacher la vue, éclipsant par la même occasion des yeux noisette teintés de lueurs dorées, surtout en présence du soleil. Une peau nacrée colorée par deux petits nuages rosés que formaient ses pommettes.
 
 ==image
-path:/book/images/lea.png
+path:/book/images/lea.webp
 alt: Un portrait de Léa
 width: 50%
 

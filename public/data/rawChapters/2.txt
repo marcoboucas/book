@@ -44,7 +44,7 @@ Vincent, lui, avait autre chose en tête … Il devait se rendre dans cette fame
 ==separator
 
 ==image
-path:/book/images/vincent.jpg
+path:/book/images/vincent.webp
 alt: Un portrait de Vincent
 width: 50%
 
