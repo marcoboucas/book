@@ -64,7 +64,7 @@ function Reader() {
         dispatch(updateChapter(data));
         resetScroll();
       })();
-    } else {
+    } else if (chapters.length > 0) {
       navigate('/');
     }
   }, [id, chapterId, nbrChapters]);
