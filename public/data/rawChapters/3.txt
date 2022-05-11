@@ -2,11 +2,23 @@ id:3
 title: Un incendie suspect
 ==content
 ==text
-<i><strong>Le 15 avril 2019</strong></i>
+<i><strong>Le 16 avril 2019</strong></i>
 
 ==image
 path:/book/images/notre-dame-burning.webp
 alt: Incendie de Notre-Dame, le 15 avril 2019
 
 ==text
-<i><strong>Ce </strong></i>
+<i><strong>Un incendie s'est déclaré ce lundi en fin d'après-midi, peu avant 19h, à Notre-Dame de Paris.</strong></i>
+
+Un incendie dont les causes sont encore à déterminer s'est déclenché hier vers 19h dans les combles de la cathédrale Notre-Dame de Paris. Les pompiers de la capitale étaient encore ce matin même en train de combattre les flammes qui menaçaient de ravager le bâtiment. L'incendie a été contenu dans la matinée et l'on attend encore des experts pour évaluer la résistance de la structure des échafaudages touchés par les flammes. 
+Selon les services du préfet de Paris, "la piste d'un incendie criminel n'est pas écartée pour le moment".
+De nombreux précieux objets ont été ensevelis sous des montagnes de gravas et de cendres, il faudra probablement de nombreuses semaines pour pouvoir réussir à les en extraire. Quant à la réparation, une étude afin d'évaluer 
+L’étendue des dégâts sera réalisée et permettra d'estimer la durée des travaux qui devrait s'étendre sur plusieurs années au moins.
+
+==separator
+
+==text
+<i>- Cela devrait les retarder pendant un certain temps.</i>
+<i>- Tout au plus quelques mois ! Ce n'est pas suffisant ! Il nous faut agir avant qu'un tel artefact ne tombe entre de mauvaises mains !</i>
+<i>- Patience … J'ai trouvé quelqu'un pour s'occuper de ça. Tout sera bientôt fini …</i>

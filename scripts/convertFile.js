@@ -1,5 +1,8 @@
 /* eslint-disable no-console */
 const fs = require('fs');
+const { promisify } = require('util');
+
+const exec = promisify(require('child_process').exec);
 
 const splitLines = (text) => {
   const data = {};
@@ -84,19 +87,20 @@ const convertChapterData = (chapterFilePath) => {
         console.error(err);
         return;
       }
-      console.log(`Chapter ${chapterData.id}: ${chapterData.title} converted`);
+      console.log(`Chapter ${chapterData.id + 1}: '${chapterData.title}' converted`);
     });
   });
 };
 
-fs.readdir('./public/data/rawChapters', (err, files) => {
-  if (err) {
-    console.error(err);
-    return;
+// List all files in a directory
+const chapterFiles = fs.readdirSync('./public/data/rawChapters');
+
+chapterFiles.forEach((chapterFile) => {
+  if (chapterFile.endsWith('.txt')) {
+    console.info(`Watching ${chapterFile}`);
+    // watch file modifications
+    fs.watchFile(`./public/data/rawChapters/${chapterFile}`, () => {
+      convertChapterData(`./public/data/rawChapters/${chapterFile}`);
+    });
   }
-  files.sort().forEach((file) => {
-    if (file.endsWith('.txt')) {
-      convertChapterData(`./public/data/rawChapters/${file}`);
-    }
-  });
 });

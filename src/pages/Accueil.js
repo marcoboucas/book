@@ -40,6 +40,8 @@ function Accueil() {
     (nextChapterDate - currentDate) / (60 * 60 * 24 * 1000),
   );
 
+  const nbrChapters = Math.min(chapters.length, additionalData.nbrPublicChapters);
+
   return (
     <Container maxWidth="sm">
       <h2 className={classes.title}>Accueil</h2>
@@ -71,7 +73,7 @@ function Accueil() {
         profiter des
         {' '}
         <span style={{ fontWeight: 'bold' }}>
-          {Math.min(chapters.length, additionalData.nbrPublicChapters)}
+          {nbrChapters}
         </span>
         {' '}
         premiers chapitres, et découvrir en même temps que les personnages les
@@ -93,13 +95,12 @@ function Accueil() {
         </Button>
       </div>
       <p className={classes.text}>
-        Le chapitre 4 sera terminé dans moins de
+        Le chapitre suivant sera terminé dans moins de
         {' '}
         <span style={{ fontWeight: 'bold' }}>{dayInterval}</span>
         {' '}
         jours !
       </p>
-
       <List subheader={(
         <ListSubheader button component="div" id="nested-list-subheader">
           Chapitres disponibles
