@@ -1,8 +1,8 @@
 {
   "title": "Odieux Paris",
   "additionalData": {
-    "nextChapterDate": "2022-05-13",
-    "nbrPublicChapters": 3
+    "nextChapterDate": "2022-05-15",
+    "nbrPublicChapters": 5
   },
   "chapters": [
     {
@@ -20,6 +20,10 @@
     {
       "title": "Un incendie suspect",
       "contentFile": "3.json"
+    },
+    {
+      "title": "Au coeur de Paris, une sacré photo",
+      "contentFile": "4.json"
     }
   ]
 }
