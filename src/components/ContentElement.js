@@ -77,6 +77,10 @@ function ContentElement({ paragraph }) {
             style={{
               width: paragraph.width || '100%',
             }}
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.style.display = 'none';
+            }}
           />
         </div>
       </Fade>
