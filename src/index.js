@@ -1,29 +1,40 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import theme from './theme';
+import { createTheme, ThemeProvider } from '@material-ui/core';
 import store from './app/store';
 import App from './App';
+import { lightThemeConfig, darkThemeConfig } from './theme';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <CssBaseline />
-    <ThemeProvider theme={theme}>
+function IndexComponent() {
+  const [colorTheme, setColorTheme] = useState('light');
+
+  const theme = useMemo(() => createTheme(colorTheme === 'light' ? lightThemeConfig : darkThemeConfig), [colorTheme]);
+
+  return (
+    <React.StrictMode>
       <Provider store={store}>
         <HashRouter>
-          <App />
-
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <App toggleTheme={() => {
+              setColorTheme(colorTheme === 'light' ? 'dark' : 'light');
+            }}
+            />
+          </ThemeProvider>
         </HashRouter>
       </Provider>
-    </ThemeProvider>
-  </React.StrictMode>,
+    </React.StrictMode>
+  );
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <IndexComponent />,
 );
 
 // If you want your app to work offline and load faster, you can change

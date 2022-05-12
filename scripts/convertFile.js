@@ -1,8 +1,5 @@
 /* eslint-disable no-console */
 const fs = require('fs');
-const { promisify } = require('util');
-
-const exec = promisify(require('child_process').exec);
 
 const splitLines = (text) => {
   const data = {};

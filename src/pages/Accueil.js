@@ -26,6 +26,17 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     maxWidth: 250,
     position: 'float',
+    filter: 'drop-shadow(2px 4px 6px black)',
+    borderRadius: '4px',
+  },
+  link: {
+    color: theme.palette.primary.main,
+    '&:visited': {
+      color: theme.palette.primary.main,
+    },
+    '&:hover': {
+      color: theme.palette.action.active,
+    },
   },
 }));
 function Accueil() {
@@ -53,7 +64,7 @@ function Accueil() {
             </div>
           </Fade>
         </Grid>
-        <Grid xs={12} md={6}>
+        <Grid item xs={12} md={6}>
 
           <p className={classes.text} style={{ fontStyle: 'italic' }}>
             Paris, 2019. La vie poursuit son cours pour Léa, Vincent et Eléonore,
@@ -111,6 +122,7 @@ function Accueil() {
           <ListItem
             key={index}
             component={Link}
+            className={classes.link}
             to={`/chapitre/${index}`}
           >
 

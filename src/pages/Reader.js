@@ -106,7 +106,7 @@ function Reader() {
       {chapterContent.map((paragraph, index) => <ContentElement key={index} paragraph={paragraph} />)}
       <Fade bottom>{menuButtons}</Fade>
       <ScrollTop>
-        <Fab color="secondary" size="small" aria-label="scroll back to top">
+        <Fab color="primary" size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

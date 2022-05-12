@@ -3,8 +3,10 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { IconButton } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import LightIcon from '@material-ui/icons/Brightness4';
 import ProgressBar from 'react-scroll-progress-bar';
 import { Route, Routes } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -26,11 +28,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function App() {
+function App({ toggleTheme }) {
   const classes = useStyles();
   const dispatch = useDispatch();
+  const theme = useTheme();
 
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(useMediaQuery('(prefers-color-scheme: dark)'));
   const title = useSelector((state) => state.book.title);
 
   useEffect(() => {
@@ -40,9 +43,9 @@ function App() {
     })();
   }, []);
 
-  const theme = useTheme();
   return (
     <div className="App">
+
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -59,7 +62,12 @@ function App() {
           <Typography variant="h6" className={classes.title}>
             {title || 'Loading ...'}
           </Typography>
-          {/* <Button color="inherit">Login</Button> */}
+          <IconButton
+            onClick={toggleTheme}
+          >
+            <LightIcon color="action" />
+          </IconButton>
+
         </Toolbar>
         <ProgressBar bgcolor={theme.palette.primary.main} />
       </AppBar>
