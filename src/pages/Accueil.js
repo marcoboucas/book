@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'float',
     filter: 'drop-shadow(2px 4px 6px black)',
     borderRadius: '4px',
+    aspectRatio: 1 / 1.4,
   },
   link: {
     color: theme.palette.primary.main,
