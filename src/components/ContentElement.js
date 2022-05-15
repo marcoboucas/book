@@ -1,9 +1,9 @@
-import sanitizeHtml from 'sanitize-html';
 import { Typography, makeStyles, Divider } from '@material-ui/core';
 
 import React from 'react';
 
 import Fade from 'react-reveal/Fade';
+import sanitize from '../app/functions/text';
 
 const useStyles = makeStyles((theme) => ({
   text: {
@@ -29,26 +29,18 @@ function ContentElement({ paragraph }) {
     // Split at br to make some tab for new paragraphs
     return (
       <>
-        {(paragraph.content || '').split('<br/>').map((line, index) => {
-          const cleanContent = sanitizeHtml(line, {
-            allowedTags: ['b', 'i', 'em', 'strong', 'center'],
-            allowedAttributes: {
-              '*': ['style'],
-            },
-          });
-          return (
-            <Fade opposite cascade key={index}>
-              <Typography
-                component="p"
-                variant="body1"
-                display="block"
-                className={classes.text}
-                dangerouslySetInnerHTML={{ __html: cleanContent }}
-                style={paragraph.style || {}}
-              />
-            </Fade>
-          );
-        })}
+        {(paragraph.content || '').split('<br/>').map((line, index) => (
+          <Fade opposite cascade key={index}>
+            <Typography
+              component="p"
+              variant="body1"
+              display="block"
+              className={classes.text}
+              dangerouslySetInnerHTML={{ __html: sanitize(line) }}
+              style={paragraph.style || {}}
+            />
+          </Fade>
+        ))}
       </>
     );
   } if (paragraph.type === 'separator') {

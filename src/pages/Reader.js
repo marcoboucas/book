@@ -18,6 +18,7 @@ import { updateChapter } from '../app/slices/chapterSlice';
 import ContentElement from '../components/ContentElement';
 import { getChapter } from '../app/functions/data';
 import resetScroll from '../app/functions/scroll';
+import sanitize from '../app/functions/text';
 
 const useStyles = makeStyles((theme) => ({
   text: {
@@ -99,9 +100,7 @@ function Reader() {
   return (
     <Container maxWidth="sm">
       <Toolbar id="back-to-top-anchor" />
-      <Typography component="h2" className={classes.title}>
-        {title}
-      </Typography>
+      <Typography component="h2" className={classes.title} dangerouslySetInnerHTML={{ __html: sanitize(title) }} />
       <Fade>{menuButtons}</Fade>
       {chapterContent.map((paragraph, index) => <ContentElement key={index} paragraph={paragraph} />)}
       <Fade bottom>{menuButtons}</Fade>
