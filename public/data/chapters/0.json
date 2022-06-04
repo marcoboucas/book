@@ -1,14 +1,7 @@
 {
-    "id": 0,
-    "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame",
-    "content": [
-        {
-            "type": "text",
-            "content": "<i><strong>Le 13 avril 2019</strong></i>"
-        },
-        {
-            "type": "text",
-            "content": "<i>C'est une heureuse découverte qu'ont réalisée les équipes de reconstruction lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts auraient été exhumés aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.</i><br/>Des archéologues de l'Inrap, qui fouillent actuellement le site de Notre-Dame avant les travaux de restauration de la flèche, ont exhumé une cache secrète sous la Nef de l'édifice. Selon les experts, le sarcophage mis à jour ainsi que les nombreux artefacts doivent dater du milieu du XIVe siècle.<br/>Selon un communiqué du ministère de la Culture, <i>\"le sarcophage en plomb trouvé en parfait état de conservation pourrait appartenir à un haut dignitaire\"</i>. Le contenu de cette cache devrait être transporté avec grande précaution vers un laboratoire proche dans les jours à venir, afin de procéder en toute sécurité à l'examination de son contenu.<br/>Selon les photos publiées par le ministère, on noterait également la présence des vases religieux, d'une croix en or, de quelques livres précieusement conservés ainsi que d'une faux en parfait état de conservation. Le ministère ne s'est pour l'instant pas prononcé sur la présence de ces objets, attendant des études plus approfondies avant d'en tirer des conclusions."
-        }
-    ]
+    "infos": {
+        "id": 0,
+        "title": "Une mystérieuse cache découverte dans les entrailles de Notre-Dame"
+    },
+    "content": "<i><strong>Le 13 avril 2019</strong></i><br/><br/><i>C'est une heureuse découverte qu'ont réalisée les équipes de reconstruction lors des travaux touchant à la flèche de la cathédrale Notre-Dame de Paris. Un sarcophage de plomb ainsi que divers artefacts auraient été exhumés aujourd'hui, dans une cache située entre les piliers de la flèche du bâtiment.</i><br/>Des archéologues de l'Inrap, qui fouillent actuellement le site de Notre-Dame avant les travaux de restauration de la flèche, ont exhumé une cache secrète sous la Nef de l'édifice. Selon les experts, le sarcophage mis à jour ainsi que les nombreux artefacts doivent dater du milieu du XIVe siècle.<br/>Selon un communiqué du ministère de la Culture, <i>\"le sarcophage en plomb trouvé en parfait état de conservation pourrait appartenir à un haut dignitaire\"</i>. Le contenu de cette cache devrait être transporté avec grande précaution vers un laboratoire proche dans les jours à venir, afin de procéder en toute sécurité à l'examination de son contenu.<br/>Selon les photos publiées par le ministère, on noterait également la présence des vases religieux, d'une croix en or, de quelques livres précieusement conservés ainsi que d'une faux en parfait état de conservation. Le ministère ne s'est pour l'instant pas prononcé sur la présence de ces objets, attendant des études plus approfondies avant d'en tirer des conclusions."
 }

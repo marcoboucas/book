@@ -15,7 +15,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import ScrollTop from '../components/ScrollTop';
 import { updateChapter } from '../app/slices/chapterSlice';
-import ContentElement from '../components/ContentElement';
+import ChapterContent from '../components/ChapterContent';
 import { getChapter } from '../app/functions/data';
 import resetScroll from '../app/functions/scroll';
 import sanitize from '../app/functions/text';
@@ -51,9 +51,10 @@ function Reader() {
   const navigate = useNavigate();
 
   const chapters = useSelector((state) => state.book.chapters);
-  const title = useSelector((state) => state.chapter.title);
+  const title = useSelector((state) => state.chapter.infos.title);
+  const tagsInfos = useSelector((state) => state.chapter.infos.tagsInfos);
   const chapterContent = useSelector((state) => state.chapter.content);
-  const chapterId = useSelector((state) => state.chapter.id);
+  const chapterId = useSelector((state) => state.chapter.infos.id);
   const nbrChapters = useSelector((state) => state.book.chapters.length || 0);
 
   const { id } = useParams();
@@ -102,7 +103,7 @@ function Reader() {
       <Toolbar id="back-to-top-anchor" />
       <Typography component="h2" className={classes.title} dangerouslySetInnerHTML={{ __html: sanitize(title) }} />
       <Fade>{menuButtons}</Fade>
-      {chapterContent.map((paragraph, index) => <ContentElement key={index} paragraph={paragraph} />)}
+      <ChapterContent content={chapterContent} tagsInfos={tagsInfos} />
       <Fade bottom>{menuButtons}</Fade>
       <ScrollTop>
         <Fab color="primary" size="small" aria-label="scroll back to top">

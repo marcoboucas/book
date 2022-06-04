@@ -3,14 +3,16 @@ import { createSlice } from '@reduxjs/toolkit';
 export const chapterSlice = createSlice({
   name: 'chapter',
   initialState: {
-    title: 'Loading chapter ...',
-    id: -1,
-    content: [],
+    infos: {
+      title: 'Loading chapter ...',
+      id: -1,
+      tagsInfos: {},
+    },
+    content: '',
   },
   reducers: {
     updateChapter: (state, action) => {
-      state.title = action.payload.title;
-      state.id = action.payload.id;
+      state.infos = action.payload.infos;
       state.content = action.payload.content;
     },
   },

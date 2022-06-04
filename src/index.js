@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from '@material-ui/core';
 import store from './app/store';
 import App from './App';
 import { lightThemeConfig, darkThemeConfig } from './theme';
+import './i18n';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
