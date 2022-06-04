@@ -1,7 +1,13 @@
 id: 4
 title: Une <i>Sacrée</i> photo au <i>Coeur</i> de Paris
+tagsInfos:
+  music:
+    tag: music
+    spotifyUrl: https://open.spotify.com/embed/track/5A5bLKdL5I3k3FTEQlAUw7?utm_source=generator
 ------
+
 <strong>En cours !</strong>
+<music/>
 <i><strong>De nos jours, un vendredi</strong></i>
 
 Le soleil, bien que loin d'être couché, entamait plus que sûrement son déclin. Il restait encore un peu de temps avant qu'il ne se pare de ses couleurs du soir, et <i>El</i> comptait bien en profiter.
