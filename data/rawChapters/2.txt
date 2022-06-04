@@ -1,11 +1,21 @@
 id: 2
 title: Le poids de la connaissance
-==content
+tagsInfos:
+  imgLibrairie:
+    tag: img
+    path: /book/images/librairie.webp
+    alt: Une librairie
+  imgVincent:
+    tag: img
+    path: /book/images/vincent.webp
+    alt: Un portrait de Vincent
+    width: 50%
+------
 
-==text
+
 <i><strong>De nos jours, un jeudi…</strong></i>
 
-==text
+
 <i>Se retrouver au paradis, savez-vous ce que cela fait ?</i>
 Pour être honnête, Vincent ne le savait pas réellement non plus, mais il s'en approchait énormément. Tout d'abord, côté études, tout se passait pour le mieux, et il pouvait pleinement profiter de la vie. Mais surtout, à côté des études, il travaillait dans une librairie.
 Certains pourraient trouver cela étrange, de préférer la compagnie des livres à celles d'autres êtres humains. <i>"Quand on voit comment sont les humains sur Terre, on risquait beaucoup moins de choses à fréquentes des livres …"</i>
@@ -22,36 +32,30 @@ Vincent se souvenait encore de ce jour, comme gravé dans sa mémoire. Il avait 
 - Si j'étais vous, je lirais <i>La nuit des temps</i> de Barjavel, avec un bon thé pour ne pas se laisser surprendre par l'ambiance gelée. Rien de mieux qu'un bon mystère sous un bonne couche de glace, qui mêle présent et anticipation futuriste, avec une touche d'un amour maudit pour réchauffer l'atmosphère.
 Pierre Ferrand avait alors fait une moue satisfaite avant de lui proposer de travailler chez lui de temps en temps. Cela faisait maintenant deux ans que Vincent travaillait dans la boutique et ils ne le regrettaient pas tous les deux.
 
-==image
-path: /book/images/librairie.webp
-alt: Une librairie
+<imgLibrairie/>
 
-==separator
+<hr>
 
-==text
+
 Vincent ne pouvait évidemment passer ses journées à la librairie, à son plus grand malheur. Avec sa quatrième année d'étude en cours et des partiels qui approchaient tranquillement, il ne fallait pas perdre de vue le bout du tunnel ou se laisser trop distraire. Et bien que cette année se révélait être un parcours de santé par rapport aux premières, ils avaient néanmoins beaucoup de travail à réaliser.
 - Monsieur Depagnol ?
 Cette voix le tira de sa rêverie, au moment même où tous les regards convergeaient vers lui. Il n'avait évidemment pas écouté la question et connaissant la professeure, cela ne se serait peut-être même pas révélé suffisant. Il recentra son attention sur le cours, cherchant avec espoir une information sur le tableau noir qui aurait pu l'orienter sur le sujet de la question. Mais avant qu'il n'ait le temps de formuler une phrase pour se tirer d'affaire, la voix l'en empêcha de nouveau :
 - Il est effectivement difficile de répondre à une question alors même que l'on a omis d'écouter durant toute la leçon … Un soupir se fit entendre tandis que l'attention de la professeure se rabattait sur le reste de la classe, plus réceptif à ses paroles. Quelqu'un d'autre peut-être ?
 <i>Ouf … Il faudrait peut-être que je me concentre un peu plus, avant de me faire remarquer davantage. </i> Vincent soupira et abandonnant le fil de ses pensée, il reporta définitivement son attention sur le cours.
 
-==separator
+<hr>
 
-==text
+
 Une fois les cours terminés à partir de 15 heures, en un sens, la journée commençait réellement pour Vincent ; En tout cas, la partie la plus plaisante de cette dernière. Après avoir souhaité une bonne soirée à ses amis, Vincent s'empressa de descendre les escaliers pour se diriger vers la sortie, accompagné du flot d'étudiants traversés de la même idée. De nombreux groupes se formaient sur les trottoirs devant les grandes portes, en cela il n'y avait pas grand-chose d'étonnant.
 Il était de notoriété publique que le jeudi faisait office de jour de prédilection pour les soirées étudiantes, et certains se préparaient déjà pour ce qui allait suivre.
 Vincent, lui, avait autre chose en tête … Il devait se rendre dans cette fameuse librairie. Ce n'était malheureusement pas le jour le plus passionnant pour lui, étant donné que son travail de ce soir allait essentiellement consister à trier des cartons et remplir les espaces libres dans les étagères. Ce n'était clairement pas l'aspect la plus glamour de son travail, si tant est qu'il y en ait un, mais cela avait l'avantage d'être simple et peu complexe à réaliser.
 
-==separator
+<hr>
 
-==image
-path:/book/images/vincent.webp
-alt: Un portrait de Vincent
-width: 50%
+<imgVincent/>
+<hr>
 
-==separator
 
-==text
 Le trajet se déroula sans embuches et même plutôt rapidement. Absorbé qu'il était dans ses pensées, Vincent ne vit pas le temps passer, et après quelques correspondances, se retrouva enfin arrivé à la station proche de la librairie. Il appréciait faire les quelques mètres qui séparaient la bouche de sortie du métro et la librairie, son objectif en vue, observant l'activité qui entourait le lieu.
 Aux premiers abords, on pouvait s'étonner qu'un tel bâtiment aussi moderne puisse accueil un tel amalgame de connaissances. Mais suite aux nombreuses rénovations qui avaient été réalisées par le propriétaire, ce lieu pouvait se targuer d'être un des lieux idéals pour passer du bon temps, mélangeant salon de thé et libraire dans une ambiance chaleureuse et amicale.
 Passant la petite porte, on arrivait dans un vaste espace où se mélangeaient personnes, tables croulant sur les livres ainsi que quelques tables et petits fauteuils, où les clients pouvaient lire en toute tranquillité. Une légère musique pouvait se faire entendre, achevant de construire une ambiance digne des rêves les plus fous <i> (C'était en tout cas l'avis de Vincent, et de probablement bon nombre de lecteurs au vue de la quantité de personnes présentes)</i>.
@@ -67,9 +71,9 @@ Pour n'importe qui, cette salle se serait révélée surchargée, véhiculant un
 C'était l'une des pièces préférées de Vincent, et pas seulement à cause des livres. C'était également l'endroit où il pouvait lire tranquillement pendant les courtes pauses qu'il avait. Cette pratique était tolérée, et il en profitait pour lire certains des ouvrages qui étaient présents, caché entre deux armoires.
 Chargé d'un carton de taille moyenne, mais dont le poids indiquait qu'il était parfaitement rempli, Vincent remonta et commença à remettre les nouveaux articles en rayon. Il devait profiter des moments de vide, quand aucun client n'occupait un stand, pour rapidement colmater les brèches présentes sur les étagères par de nouveaux exemplaires. D'un certain point de vue, c'était une sorte de jeu, il fallait agir rapidement et en toute discrétion.
 
-==separator
+<hr>
 
-==text
+
 Alors qu'il approchait de la partie la plus ancienne de la librairie, où les ouvrages sentaient parfois légèrement le renfermé et où l'odeur de reliures en cuir pouvait se faire sentir par endroits, un frisson parcouru l'entièreté de sa colonne vertébrale.
 Il tourna la tête, à la recherche de la source d'un tel phénomène, sans rien remarquer d'anormal. <i>"Ça doit être un courant d'air, encore un client qui laisse la porte d'entrée ouverte trop longtemps"</i>, en conclut-il tout en retournant à sa tâche.
 Mais alors qu'il se dirigeait vers la zone la plus dense de l'étagère, un second frisson se fit ressentir. Alors qu'il se retournait, cette fois-ci bien décidé à trouver la source de cet effet, il remarqua une femme qui s'approchait de lui, aux grandes lunettes rondes et marrons. D'un certain âge, que seuls quelques fossettes trahissaient, elle était grande et fine, et étaient entièrement vêtue de vert sombre. Derrière les grandes lunettes, des yeux vifs et perçants, analysant chaque détail tandis qu'elle avançait vers lui.
@@ -83,9 +87,9 @@ La femme fixa ses yeux sur lui pendant quelques secondes, avant de finalement pr
 - Oui … Il se pourrait bien que vous vous révéleriez utile mon cher Vincent. Je cherche un livre en particulier, qui traiterait des artefacts et reliques qui feraient surface au travers des différents mythes et légendes. Auriez-vous quelque livre d'un auteur qui en aurait fait son sujet de prédilection ?
 Vincent se creusa la tête … Le sujet lui rappelait bien quelque chose, et il mit quelques instants à fouiller dans sa mémoire le nom de l'auteur ou du tome associé … S'éloignant de l'étagère, il se dirigea vers l'une des tables au centre de la pièce, à la recherche du livre recherché …
 
-==separator
+<hr>
 
-==text
+
 Un crac se fit entendre au moment où l'une des fixations des étagères céda sous le poids des ouvrages empilés dessus. Dos à la scène, Vincent ne pu saisir qu'un flash de l'action qui se déroula derrière lui. Un tsunami d'ouvrages de toutes sortes déferla à l'endroit précisément à l'endroit où quelques instants auparavant, il s'affairait à agencer les livres.
 Cette impressionnante avalanche ravagea en même temps l'échelle qui était adossée à l'étagère, le poids de toutes ces sources de connaissances ne laissant aucune chance aux quelques plances qui la constituait.
 Il n'en faisait aucun doute, il ne serait resté de Vincent qu'un puzzle de chair et d'os s'il ne s'était pas déplacé à la recherche du livre. <i>"Je n'ai rien contre les bretons, mais devenir une crêpe, très peu pour moi …"</i>
