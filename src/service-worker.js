@@ -11,7 +11,7 @@ import { clientsClaim } from "workbox-core";
 import { ExpirationPlugin } from "workbox-expiration";
 import { precacheAndRoute, createHandlerBoundToURL } from "workbox-precaching";
 import { registerRoute } from "workbox-routing";
-import { StaleWhileRevalidate, NetworkFirst } from "workbox-strategies";
+import { StaleWhileRevalidate } from "workbox-strategies";
 
 clientsClaim();
 
@@ -65,25 +65,27 @@ registerRoute(
 );
 
 // TODO: Make it work properly
-// registerRoute(
-//   // Add in any other file extensions or routing criteria as needed.
-//   ({ url }) => url.origin === self.location.origin && url.pathname.endsWith('book.json'), // Customize this strategy as needed, e.g., by changing to CacheFirst.
-//   new NetworkFirst({
-//     cacheName: 'jsonBook',
-//     plugins: [
-//     ],
-//   }),
-// );
+registerRoute(
+  // Add in any other file extensions or routing criteria as needed.
+  ({ url }) =>
+    url.origin === self.location.origin && url.pathname.endsWith("book.json"), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+  new NetworkFirst({
+    cacheName: "jsonBook",
+    plugins: [],
+  })
+);
 
-// registerRoute(
-//   // Add in any other file extensions or routing criteria as needed.
-//   ({ url }) => url.origin === self.location.origin && url.pathname.endsWith('.json') && !url.pathname.endsWith('book.json'), // Customize this strategy as needed, e.g., by changing to CacheFirst.
-//   new StaleWhileRevalidate({
-//     cacheName: 'jsonChapters',
-//     plugins: [
-//     ],
-//   }),
-// );
+registerRoute(
+  // Add in any other file extensions or routing criteria as needed.
+  ({ url }) =>
+    url.origin === self.location.origin &&
+    url.pathname.endsWith(".json") &&
+    !url.pathname.endsWith("book.json"), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+  new NetworkFirst({
+    cacheName: "jsonChapters",
+    plugins: [],
+  })
+);
 
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
