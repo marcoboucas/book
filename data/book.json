@@ -1,7 +1,7 @@
 {
   "title": "Odieux Paris",
   "additionalData": {
-    "nextChapterDate": "2022-05-15",
+    "nextChapterDate": "2022-06-15",
     "nbrPublicChapters": 5
   },
   "chapters": [
@@ -24,6 +24,10 @@
     {
       "title": "Une Sacrée photo au Coeur de Paris",
       "contentFile": "4.json"
+    },
+    {
+      "title": "Une présentation réussie",
+      "contentFile": "5.json"
     }
   ]
 }
