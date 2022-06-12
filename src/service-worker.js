@@ -77,7 +77,8 @@ registerRoute(
   // Add in any other file extensions or routing criteria as needed.
   ({ url }) => url.origin === self.location.origin
     && url.pathname.endsWith(".json")
-    && !url.pathname.endsWith("book.json"), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+    && !url.pathname.endsWith("book.json")
+    && !url.pathname.endsWith("manifest.json"), // Customize this strategy as needed, e.g., by changing to CacheFirst.
   new NetworkFirst({
     cacheName: "jsonChapters",
     plugins: [],
