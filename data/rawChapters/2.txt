@@ -1,0 +1,110 @@
+id: 2
+title: Le poids de la connaissance
+tagsInfos:
+  imgLibrairie:
+    tag: img
+    path: /book/images/librairie.webp
+    alt: Une librairie
+  imgVincent:
+    tag: img
+    path: /book/images/vincent.webp
+    alt: Un portrait de Vincent
+    width: 50%
+------
+
+
+<i><strong>De nos jours, un jeudi…</strong></i>
+
+
+<i>Se retrouver au paradis, savez-vous ce que cela fait ?</i>
+Pour être honnête, <infos-vincent>Vincent</infos-vincent> ne le savait pas réellement non plus, mais il s'en approchait énormément. Tout d'abord, côté études, tout se passait pour le mieux, et il pouvait pleinement profiter de la vie. Mais surtout, à côté des études, il travaillait dans une librairie.
+Certains pourraient trouver cela étrange, de préférer la compagnie des livres à celles d'autres êtres humains. <i>"Quand on voit comment sont les humains sur Terre, on risquait beaucoup moins de choses à fréquentes des livres …"</i>
+
+Ce qui était à la base un plan pour pouvoir subvenir à ses besoins s'était rapidement transformé en un véritable plaisir. Car il fallait se l'avouer, <infos-vincent>Vincent</infos-vincent> était un lecteur compulsif. Depuis tout jeune, il s'était plongé avec acharnement dans les livres comme pour fuir la réalité. C'est ce qui l'avait convaincu de se lancer vers un master en journalisme, pour essayer de faire de sa passion son quotidien futur.
+
+Bien entendu, la réalité était revenue comme un cheval au galop, et il devrait se l'avouer, aimer quelque chose et l'étudier sont parfois des choses bien différentes. Il n'était pas entièrement satisfait par ce qu'il apprenait dans ces études, et c'est ce qui l'avait motivé à aller travailler à côté.
+Un jour, alors qu'il entrait dans une n-ème librairie, son CV dans la main et près à se vendre auprès des propriétaires, il avait fait la connaissance de Pierre Ferrand.
+Ce dernier, qui s'était installé depuis pour reprendre une librairie sur le point de fermer, l'avait regardé de bas en haut tel un agriculteur jetant un coup d'œil à l'animal avant de l'acheter. Il avait finalement décidé de lui laisser une chance et lui avait demandé :
+- Si tu devais me conseiller un livre à lire, que me proposerais-tu ?
+<infos-vincent>Vincent</infos-vincent> se souvenait encore de ce jour, comme gravé dans sa mémoire. Il avait été tout d'abord un peu surpris par une telle question, mais s'était ressaisit rapidement et après un rapide questionnement mental, avait finalement répondu :
+- Tout dépend, vous aimeriez lire quelque chose de particulier ?
+- Surprend moi, avait fait alors Pierre, le sourire aux lèvres.
+- Si j'étais vous, je lirais <i>La nuit des temps</i> de Barjavel, avec un bon thé pour ne pas se laisser surprendre par l'ambiance gelée. Rien de mieux qu'un bon mystère sous un bonne couche de glace, qui mêle présent et anticipation futuriste, avec une touche d'un amour maudit pour réchauffer l'atmosphère.
+Pierre Ferrand avait alors fait une moue satisfaite avant de lui proposer de travailler chez lui de temps en temps. Cela faisait maintenant deux ans que <infos-vincent>Vincent</infos-vincent> travaillait dans la boutique et ils ne le regrettaient pas tous les deux.
+
+<imgLibrairie/>
+
+<hr>
+
+
+<infos-vincent>Vincent</infos-vincent> ne pouvait évidemment passer ses journées à la librairie, à son plus grand malheur. Avec sa quatrième année d'étude en cours et des partiels qui approchaient tranquillement, il ne fallait pas perdre de vue le bout du tunnel ou se laisser trop distraire. Et bien que cette année se révélait être un parcours de santé par rapport aux premières, ils avaient néanmoins beaucoup de travail à réaliser.
+- Monsieur Depagnol ?
+Cette voix le tira de sa rêverie, au moment même où tous les regards convergeaient vers lui. Il n'avait évidemment pas écouté la question et connaissant la professeure, cela ne se serait peut-être même pas révélé suffisant. Il recentra son attention sur le cours, cherchant avec espoir une information sur le tableau noir qui aurait pu l'orienter sur le sujet de la question. Mais avant qu'il n'ait le temps de formuler une phrase pour se tirer d'affaire, la voix l'en empêcha de nouveau :
+- Il est effectivement difficile de répondre à une question alors même que l'on a omis d'écouter durant toute la leçon … Un soupir se fit entendre tandis que l'attention de la professeure se rabattait sur le reste de la classe, plus réceptif à ses paroles. Quelqu'un d'autre peut-être ?
+<i>Ouf … Il faudrait peut-être que je me concentre un peu plus, avant de me faire remarquer davantage. </i> <infos-vincent>Vincent</infos-vincent> soupira et abandonnant le fil de ses pensée, il reporta définitivement son attention sur le cours.
+
+<hr>
+
+
+Une fois les cours terminés à partir de 15 heures, en un sens, la journée commençait réellement pour <infos-vincent>Vincent</infos-vincent> ; En tout cas, la partie la plus plaisante de cette dernière. Après avoir souhaité une bonne soirée à ses amis, <infos-vincent>Vincent</infos-vincent> s'empressa de descendre les escaliers pour se diriger vers la sortie, accompagné du flot d'étudiants traversés de la même idée. De nombreux groupes se formaient sur les trottoirs devant les grandes portes, en cela il n'y avait pas grand-chose d'étonnant.
+Il était de notoriété publique que le jeudi faisait office de jour de prédilection pour les soirées étudiantes, et certains se préparaient déjà pour ce qui allait suivre.
+<infos-vincent>Vincent</infos-vincent>, lui, avait autre chose en tête … Il devait se rendre dans cette fameuse librairie. Ce n'était malheureusement pas le jour le plus passionnant pour lui, étant donné que son travail de ce soir allait essentiellement consister à trier des cartons et remplir les espaces libres dans les étagères. Ce n'était clairement pas l'aspect la plus glamour de son travail, si tant est qu'il y en ait un, mais cela avait l'avantage d'être simple et peu complexe à réaliser.
+
+<hr>
+
+<imgVincent/>
+<hr>
+
+
+Le trajet se déroula sans embuches et même plutôt rapidement. Absorbé qu'il était dans ses pensées, <infos-vincent>Vincent</infos-vincent> ne vit pas le temps passer, et après quelques correspondances, se retrouva enfin arrivé à la station proche de la librairie. Il appréciait faire les quelques mètres qui séparaient la bouche de sortie du métro et la librairie, son objectif en vue, observant l'activité qui entourait le lieu.
+Aux premiers abords, on pouvait s'étonner qu'un tel bâtiment aussi moderne puisse accueil un tel amalgame de connaissances. Mais suite aux nombreuses rénovations qui avaient été réalisées par le propriétaire, ce lieu pouvait se targuer d'être un des lieux idéals pour passer du bon temps, mélangeant salon de thé et libraire dans une ambiance chaleureuse et amicale.
+Passant la petite porte, on arrivait dans un vaste espace où se mélangeaient personnes, tables croulant sur les livres ainsi que quelques tables et petits fauteuils, où les clients pouvaient lire en toute tranquillité. Une légère musique pouvait se faire entendre, achevant de construire une ambiance digne des rêves les plus fous <i> (C'était en tout cas l'avis de <infos-vincent>Vincent</infos-vincent>, et de probablement bon nombre de lecteurs au vue de la quantité de personnes présentes)</i>.
+
+<infos-vincent>Vincent</infos-vincent> passa derrière les caisses et se dirigea tranquillement vers l'arrière-boutique. Une petite salle était à disposition des employés afin qu'ils puissent y poser leurs affaires, respirer un peu sans l'œil constant d'un client et profiter des moments de calme qui parsemaient la journée.
+Jack, Marie et Chloé étaient visiblement déjà arrivés, à la vue de leurs affaires parfaitement alignées sur les quelques chaises qui peuplaient la salle. Il ne manquait donc plus que <infos-vincent>Vincent</infos-vincent> pour achever de compléter l'équipe. Enfilant un vêtement aux marques de la boutique (Pierre était intraitable sur ces détails, voulant créer une image de marque afin de fidéliser les clients disait-il), <infos-vincent>Vincent</infos-vincent> sortit de la salle pour se diriger vers les différents rayons de la boutique.
+Au cours des mois, il s'était réalisé une liste d'actions à réaliser, et ne manquait jamais de la répéter une fois arrivé sur place.
+- Tout d'abord, il évaluait l'aspect des différents rayons, à la recherche d'un livre mal agencé, à la mauvaise place ou encore absent. Il fallait veiller à toujours avoir un exemple de chaque livre en rayon, pour éviter qu'un client, peiné de son absence, se décide à quitter la boutique.
+<i>Tiens … Les Chattams sont partis comme des petits pains …</i>, remarqua <infos-vincent>Vincent</infos-vincent>, avisant un trou plus important dans la zone de des thrillers. <i>J'espère qu'il nous en reste suffisamment …</i>
+
+- Une fois cette première étape réalisée, <infos-vincent>Vincent</infos-vincent> se dirigeait alors vers le sous-sol, qui contenait l'essentiel des livres entreposés, attendant patiemment d'avoir leur place sur l'étagère, prêts à être l'objet d'un heureux achat.
+Pour n'importe qui, cette salle se serait révélée surchargée, véhiculant une atmosphère pesante et lourde. Les murs étaient recouverts de couvertures jusqu'au plafond au point qu'on ne puisse même plus y voir la couleur de la peinture. Les étagères étaient toutes chargées d'épais cartons, remplis à ras-bord de volumes. L'ensemble donnait l'impression d'être tombé dans un arc-en-ciel, les couvertures bariolées de tous ces livres formant un patchwork coloré du plus bel effet.
+C'était l'une des pièces préférées de <infos-vincent>Vincent</infos-vincent>, et pas seulement à cause des livres. C'était également l'endroit où il pouvait lire tranquillement pendant les courtes pauses qu'il avait. Cette pratique était tolérée, et il en profitait pour lire certains des ouvrages qui étaient présents, caché entre deux armoires.
+Chargé d'un carton de taille moyenne, mais dont le poids indiquait qu'il était parfaitement rempli, <infos-vincent>Vincent</infos-vincent> remonta et commença à remettre les nouveaux articles en rayon. Il devait profiter des moments de vide, quand aucun client n'occupait un stand, pour rapidement colmater les brèches présentes sur les étagères par de nouveaux exemplaires. D'un certain point de vue, c'était une sorte de jeu, il fallait agir rapidement et en toute discrétion.
+
+<hr>
+
+
+Alors qu'il approchait de la partie la plus ancienne de la librairie, où les ouvrages sentaient parfois légèrement le renfermé et où l'odeur de reliures en cuir pouvait se faire sentir par endroits, un frisson parcouru l'entièreté de sa colonne vertébrale.
+Il tourna la tête, à la recherche de la source d'un tel phénomène, sans rien remarquer d'anormal. <i>"Ça doit être un courant d'air, encore un client qui laisse la porte d'entrée ouverte trop longtemps"</i>, en conclut-il tout en retournant à sa tâche.
+Mais alors qu'il se dirigeait vers la zone la plus dense de l'étagère, un second frisson se fit ressentir. Alors qu'il se retournait, cette fois-ci bien décidé à trouver la source de cet effet, il remarqua une femme qui s'approchait de lui, aux grandes lunettes rondes et marrons. D'un certain âge, que seuls quelques fossettes trahissaient, elle était grande et fine, et étaient entièrement vêtue de vert sombre. Derrière les grandes lunettes, des yeux vifs et perçants, analysant chaque détail tandis qu'elle avançait vers lui.
+- Pourriez-vous m'aider, jeune homme ?
+Se détournant de l'étagère pour s'approcher de la cliente, <infos-vincent>Vincent</infos-vincent> posa le volume qu'il tenait en main, et tout en époussetant son vêtement légèrement poussiéreux, il s'empressa de lui répondre :
+- Bien sûr, en quoi puis-je vous aider ?
+- Je recherche un livre sur les anciennes civilisations, et à la vue de la collections que vous avez là, il me faudrait bien un peu d'aide afin d'achever ma <strong>quête</strong>.
+<infos-vincent>Vincent</infos-vincent> sourit tout en regardant les étagères débordant de livres …
+- Peut-être auriez-vous plus d'informations sur un livre en particulier ?
+La femme fixa ses yeux sur lui pendant quelques secondes, avant de finalement prendre la parole :
+- Oui … Il se pourrait bien que vous vous révéleriez utile mon cher <infos-vincent>Vincent</infos-vincent>. Je cherche un livre en particulier, qui traiterait des artefacts et reliques qui feraient surface au travers des différents mythes et légendes. Auriez-vous quelque livre d'un auteur qui en aurait fait son sujet de prédilection ?
+<infos-vincent>Vincent</infos-vincent> se creusa la tête … Le sujet lui rappelait bien quelque chose, et il mit quelques instants à fouiller dans sa mémoire le nom de l'auteur ou du tome associé … S'éloignant de l'étagère, il se dirigea vers l'une des tables au centre de la pièce, à la recherche du livre recherché …
+
+<hr>
+
+
+Un crac se fit entendre au moment où l'une des fixations des étagères céda sous le poids des ouvrages empilés dessus. Dos à la scène, <infos-vincent>Vincent</infos-vincent> ne pu saisir qu'un flash de l'action qui se déroula derrière lui. Un tsunami d'ouvrages de toutes sortes déferla à l'endroit précisément à l'endroit où quelques instants auparavant, il s'affairait à agencer les livres.
+Cette impressionnante avalanche ravagea en même temps l'échelle qui était adossée à l'étagère, le poids de toutes ces sources de connaissances ne laissant aucune chance aux quelques plances qui la constituait.
+Il n'en faisait aucun doute, il ne serait resté de <infos-vincent>Vincent</infos-vincent> qu'un puzzle de chair et d'os s'il ne s'était pas déplacé à la recherche du livre. <i>"Je n'ai rien contre les bretons, mais devenir une crêpe, très peu pour moi …"</i>
+Il se tourna vers l'endroit où se trouvait la femme quelques instants plus tôt, bien à côté de la zone d'effondrement, mais plus aucune trace de cette dernière … Elle s'était volatilisée …
+- <infos-vincent>Vincent</infos-vincent> ! Tout va bien ?
+C'était Chloé qui s'approchait de lui, lui touchant l'épaule afin de voir s'il allait bien. D'un air hagard, <infos-vincent>Vincent</infos-vincent> ne put réagir que d'un geste affirmatif de la tête. Il était toujours sur le choc d'avoir échappé à un tel incident ainsi que par l'apparente disparition de la femme avec qui il avait échangé quelques instants auparavant.
+Pierre, accompagné de Jack, posa quelques panneaux pour marquer la zone et éviter que d'éventuels clients s’aventurent dans la zone, bien qu'il semblait évident que personne n'allait s'aventurer à travers cette jungle de livres.
+Avisant la tête de <infos-vincent>Vincent</infos-vincent>, il lui fit :
+- Tu devrais peut-être faire une pause pour aujourd'hui, tu as eu assez d'émotions fortes pour la journée je pense …
+<infos-vincent>Vincent</infos-vincent> retrouva pleinement ses esprits et entreprit de se lever. Une fois debout, il s’exclama :
+- Non, pas de problème, je peux continuer à travailler. Juste un léger étourdissement suite à de la fatigue.
+Dubitatif, Pierre l'examina avant de soupirer.
+- Vas plutôt donc remplacer Jack à la caisse, il n'y a pas beaucoup de monde actuellement. On va s'occuper de ranger ça.
+
+Comprenant qu'il ne pourrait pas le faire changer d'avis, autant par le timbre de sa voix que le regard qu'il posait sur lui, <infos-vincent>Vincent</infos-vincent> se dirigea vers la caisse en maugréant. Il aurait préféré finir la tâche qu'il avait commencé, mais ce qui venait de se dérouler l'avait perturbé, et il fallait bien reconnaître que tenir la caisse se révélait être une tâche bien plus reposante … <i>Et bien moins dangereuse …</i>
+Derrière la caisse, <infos-vincent>Vincent</infos-vincent> posa les mains sur le bureau, respira un grand coup et regarda autour de lui. Dans l'immédiat, aucun client ne semblait avoir envie de concrétiser un achat, il avait donc un peu de temps devant lui pour se calmer. Il se rendait seulement compte maintenant que son cœur continuait de battre la chamade.
+
+Il entendit le léger bruit de la porte tandis qu'elle s'ouvrait …

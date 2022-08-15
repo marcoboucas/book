@@ -3,7 +3,6 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { IconButton } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import LightIcon from '@material-ui/icons/Brightness4';
@@ -11,10 +10,12 @@ import ProgressBar from 'react-scroll-progress-bar';
 import { Route, Routes } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import BookDrawer from './components/Drawer';
-import { getBook } from './app/functions/data';
+import { getBook, getBookInfos } from './app/functions/data';
 import Reader from './pages/Reader';
 import Accueil from './pages/Accueil';
+import Infos from './pages/Infos';
 import { updateBook } from './app/slices/bookSlice';
+import { updateBookInfos } from './app/slices/infosSlice';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,13 +34,18 @@ function App({ toggleTheme }) {
   const dispatch = useDispatch();
   const theme = useTheme();
 
-  const [menuOpen, setMenuOpen] = useState(useMediaQuery('(prefers-color-scheme: dark)'));
+  const [menuOpen, setMenuOpen] = useState(false);
   const title = useSelector((state) => state.book.title);
 
   useEffect(() => {
     (async () => {
-      const data = await getBook();
-      dispatch(updateBook(data));
+      // Get the book content
+      const bookData = await getBook();
+      dispatch(updateBook(bookData));
+
+      // Get book additional details
+      const bookInfos = await getBookInfos();
+      dispatch(updateBookInfos(bookInfos));
     })();
   }, []);
 
@@ -86,6 +92,12 @@ function App({ toggleTheme }) {
           path="/chapitre/:id"
           element={(
             <Reader />
+          )}
+        />
+        <Route
+          path="/infos/:id"
+          element={(
+            <Infos />
           )}
         />
       </Routes>

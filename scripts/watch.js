@@ -39,14 +39,13 @@ const convertChapterData = (chapterFilePath) => {
   });
 };
 // List all files in a directory
-const chapterFiles = fs.readdirSync('./public/data/rawChapters');
+const chapterFiles = fs.readdirSync('./data/rawChapters');
 
 chapterFiles.forEach((chapterFile) => {
   if (chapterFile.endsWith('.txt')) {
+    const fileName = `./data/rawChapters/${chapterFile}`;
     console.info(`Watching ${chapterFile}`);
     // watch file modifications
-    fs.watchFile(`./public/data/rawChapters/${chapterFile}`, () => {
-      convertChapterData(`./public/data/rawChapters/${chapterFile}`);
-    });
+    fs.watchFile(fileName, () => { convertChapterData(fileName); });
   }
 });

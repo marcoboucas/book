@@ -1,0 +1,6 @@
+id: 7
+title: Une présentation réussie
+------
+
+<i><strong>De nos jours, un jeudi…</strong></i>
+

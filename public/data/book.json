@@ -1,7 +1,6 @@
 {
   "title": "Odieux Paris",
   "additionalData": {
-    "nextChapterDate": "2022-06-17",
     "nbrPublicChapters": 5
   },
   "chapters": [
@@ -26,8 +25,34 @@
       "contentFile": "4.json"
     },
     {
+      "title": "A la recherche du livre perdu",
+      "contentFile": "5.json",
+      "description": "Rencontre entre Léa et Vincent dans la librairie"
+    },
+    {
+      "title": "Coeur Fragile",
+      "contentFile": "6.json",
+      "description": "El rentre de son expédition, mais dans le métro pour rentrer, un évènement la laisse perplexe."
+    },
+    {
       "title": "Une présentation réussie",
-      "contentFile": "5.json"
+      "contentFile": "7.json",
+      "description": "C'est le grand jour pour Léa, qui réalise devant de nombreuses personnes une présentation de son produit de recherche, recevant les compliments d'une inconnue néanmoins familière."
+    },
+    {
+      "title": "Obscur dialogue",
+      "contentFile": "8.json",
+      "description": "Paris, bords de Seine. Le soleil s'est couché, pour autant la ville regorge encore d'activité... Deux individus se retrouvent pour discuter, en l'absence de tous témoins."
+    },
+    {
+      "title": "Coïncidence ?",
+      "contentFile": "9.json",
+      "description": "Attablées à la table d'un café, Léa et El se retrouvent et finissent par partager leurs expériences des derniers jours"
+    },
+    {
+      "title": "Le temps d'une visite",
+      "contentFile": "10.json",
+      "description": "Vincent visite le musée d'Orsay et fait la rencontre d'un 'homme' étrange qui lui dévoile de sombres secrets."
     }
   ]
 }

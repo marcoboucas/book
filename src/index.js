@@ -13,7 +13,7 @@ import './i18n';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 function IndexComponent() {
-  const [colorTheme, setColorTheme] = useState('light');
+  const [colorTheme, setColorTheme] = useState(localStorage.getItem('theme') || 'light');
 
   const theme = useMemo(() => createTheme(colorTheme === 'light' ? lightThemeConfig : darkThemeConfig), [colorTheme]);
 
@@ -24,7 +24,9 @@ function IndexComponent() {
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <App toggleTheme={() => {
-              setColorTheme(colorTheme === 'light' ? 'dark' : 'light');
+              const newTheme = theme.palette.type === 'light' ? 'dark' : 'light';
+              setColorTheme(newTheme);
+              localStorage.setItem('theme', newTheme);
             }}
             />
           </ThemeProvider>

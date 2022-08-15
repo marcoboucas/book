@@ -17,8 +17,8 @@ tagsInfos:
 ------
 <i><strong>De nos jours, un jeudi…</strong></i>
 
-Se lever avec une envie de meurtre, ce n'était pas forcément la manière idéale de commencer une journée… Mais ce matin en particulier, Léa voulait profondément faire taire ce briseur de rêves et de silences. Son réveil ne faisait que hurler chaque matin, d'un cri aussi synthétique que désagréable.
-<i>"Est-ce vraiment le bruit qui est désagréable ? Ou plutôt le fait qu'il annonce la nécessité de se lever le matin ?"</i> se mit à penser Léa au moment d'appuyer sur le bouton pour arrêter cette torture.
+Se lever avec une envie de meurtre, ce n'était pas forcément la manière idéale de commencer une journée… Mais ce matin en particulier, <infos-lea>Léa</infos-lea> voulait profondément faire taire ce briseur de rêves et de silences. Son réveil ne faisait que hurler chaque matin, d'un cri aussi synthétique que désagréable.
+<i>"Est-ce vraiment le bruit qui est désagréable ? Ou plutôt le fait qu'il annonce la nécessité de se lever le matin ?"</i> se mit à penser <infos-lea>Léa</infos-lea> au moment d'appuyer sur le bouton pour arrêter cette torture.
 
 <i>"C'est bon signe"</i> pensa-t-elle tout en émergeant difficilement de son lit, <i>"si j'arrive à aligner toutes ces pensées dans ma tête, c'est que la soirée n'a pas été trop longue pour moi."</i>
 Et pourtant, bien des personnes auraient considéré cette nuit comme trop courte. Elle avait dû avancer son projet au travail, dont elle devait présenter les progrès ce vendredi. Tâche passionnante, mais néanmoins exténuante, elle avait également commencé à consigner tous les avancements qu'elle avait réalisés durant les dernières semaines, ce qui consistait à lire rapidement toutes les modifications et consigner les informations essentielles.
@@ -43,7 +43,7 @@ Un rapide coup d'oeil dans le miroir pour s'assurer que rien n'allait trop de tr
 C'était sans compter le regard que lui posa son père à son entrée dans la pièce. Il la dévisagea sans un mot, tandis qu'elle sélectionnait de quoi se faire un encas avant de filer. On aurait dit un sphinx, posé là, à la regarder tout en sirotant sa tasse de café.
 
 - Le réveil a l'air d'être difficile, fit remarquer son père, un léger sourire aux lèvres. Il avait finalement posé sa tasse pour prendre la parole.
-- Légèrement, répondit Léa d'une voix bien plus grave et caverneuse que d'habitude, ce qui la fit grimacer et accentua davantage le sourire de son père. Je serais bien restée discuter un peu, mais il faut que je me dépêche pour ne pas arriver en retard. En plus, il faut que je finisse un rapport.
+- Légèrement, répondit <infos-lea>Léa</infos-lea> d'une voix bien plus grave et caverneuse que d'habitude, ce qui la fit grimacer et accentua davantage le sourire de son père. Je serais bien restée discuter un peu, mais il faut que je me dépêche pour ne pas arriver en retard. En plus, il faut que je finisse un rapport.
 Sur ces quelques mots, elle se dépêcha d'engloutir les quelques biscuits au chocolat qu'elle avait pris d'un des placards par gourmandise, s'empressa de prendre un verre de jus d'orange pour faire passer le tout avant de faire demi-tour et de retourner se préparer. Un vague <i>"Bon courage"</i> retentit dans la cuisine, auquel elle ne prit même pas le temps de répondre, déjà trop occupée à penser à la liste des tâches qu'il lui restait à faire aujourd'hui.
 
 <hr>
@@ -54,7 +54,7 @@ Quelques instants plus tard, elle franchissait le seuil de la porte et se ruait 
 
 Ouvrir la porte de l'immeuble, marcher quelques minutes d'un pas pressé typiquement parisien pour s'engouffrer dans la station de métro la plus proche. Puis attendre le métro debout, au milieu d'une foule de gens tels des clones, immobiles, les yeux rivés sur leurs smartphones et leurs écouteurs aux oreilles. Chaque jour, elle répétait les mêmes gestes, entrait dans la rame une fois arrivée, debout, les yeux dans le vague pour éviter de croiser le regard de quelqu'un, pensant à mille et une choses.
 C'était paradoxalement le pire et le meilleur moment de la journée: le pire pour ces instants à moitié perdus, pas assez de temps pour se concentrer sur quelque chose mais suffisant pour trouver le temps long, et en même temps, cela permettait de s'évader quelques instants, réfléchir à autre chose…
-Léa aimait bien se dire qu'elle passait en mode "robot" dans le métro et laissait son corps réaliser les mêmes déplacements tous les matins, permettant à son esprit de s'évader.
+<infos-lea>Léa</infos-lea> aimait bien se dire qu'elle passait en mode "robot" dans le métro et laissait son corps réaliser les mêmes déplacements tous les matins, permettant à son esprit de s'évader.
 
 <hr>
 
@@ -63,9 +63,9 @@ Si quelqu'un la regardait à ce moment-là, il aurait vu une jeune femme aux lon
 <imgLea/>
 
 
-Léa allait bientôt avoir ces 26 ans, sa thèse bientôt sous la poche, elle pourrait alors travailler où elle le voulait. Non pas qu'elle n'aimait pas Paris… La capitale était agréable quand on y prenait goût, toute cette effervescence et et les possibilités qu'offraient cette ville faisait presque peur par moments mais offrait une liberté infinie.
+<infos-lea>Léa</infos-lea> allait bientôt avoir ces 26 ans, sa thèse bientôt sous la poche, elle pourrait alors travailler où elle le voulait. Non pas qu'elle n'aimait pas Paris… La capitale était agréable quand on y prenait goût, toute cette effervescence et et les possibilités qu'offraient cette ville faisait presque peur par moments mais offrait une liberté infinie.
 Mais il fallait un certain temps d'adaptation afin de se familiariser avec les lieux, trouver ceux qui valaient le coup, et bien évidemment les personnes avec lesquelles on pouvait en profiter.
-Malgré cela, Léa avait l'impression d'étouffer… Après des années assez intenses d'étude, elle avait besoin de respirer, de se poser … Bref de profiter …
+Malgré cela, <infos-lea>Léa</infos-lea> avait l'impression d'étouffer… Après des années assez intenses d'étude, elle avait besoin de respirer, de se poser … Bref de profiter …
 
 <hr>
 
@@ -77,38 +77,38 @@ Cette phrase la fit revenir à la réalité instantanément et réintégrer son 
 
 
 Elle gravit les quelques marches permettant de quitter les quais et aboutissant sur de nombreux couloirs. Tout en se frayant un chemin à travers cet entremêlement de tunnels et chemins, dignes de Dédale lui-même, elle ne pu s'empêcher de penser : <i>"Et encore, Thésée lui n'avait qu'un fil pour se repérer, au moins nous avons des panneaux et des flèches pour nous aider…"</i>.
-Cette dernière remarque la fit sourire, apercevant un peu plus loin quelques touristes en groupe, cherchant désespérément du regard la bonne direction vers la sortie. <i>"Et zut… Je suis déjà en retard moi…"</i>. Voyant que personne ne leur accordait la moindre importance, tous rivés sur leur téléphone ou se précipitant prochaine étape sans s'arrêter, Léa soupira et s'approcha du groupe pour les aider.
+Cette dernière remarque la fit sourire, apercevant un peu plus loin quelques touristes en groupe, cherchant désespérément du regard la bonne direction vers la sortie. <i>"Et zut… Je suis déjà en retard moi…"</i>. Voyant que personne ne leur accordait la moindre importance, tous rivés sur leur téléphone ou se précipitant prochaine étape sans s'arrêter, <infos-lea>Léa</infos-lea> soupira et s'approcha du groupe pour les aider.
 Elle s'adressa à l'une des touristes dont les cheveux blonds, bien que retenus dans un chignon, commençaient à reprendre de leur liberté, donnant à la femme une apparence encore un peu plus désespérée.
 
 
 - Puis je vous aider ? demanda-t-elle avec le sourire.
-La femme leva les yeux du plan papier qu'elle avait sous les yeux et les plongea dans le regard de Léa.
+La femme leva les yeux du plan papier qu'elle avait sous les yeux et les plongea dans le regard de <infos-lea>Léa</infos-lea>.
 - Bonjour, j'aimerais me diriger vers le Panthéon, mais je crois que je me suis perdu… Pourriez-vous m'indiquer le chemin ?
-Un rapide regard sur le plan ainsi que sur les panneaux suffit à Léa pour trouver le bon chemin, après tout, c'était ça l'avantage de vivre à Paris depuis un certain temps.
+Un rapide regard sur le plan ainsi que sur les panneaux suffit à <infos-lea>Léa</infos-lea> pour trouver le bon chemin, après tout, c'était ça l'avantage de vivre à Paris depuis un certain temps.
 - Il vous suffit de prendre cette sortie, expliqua-t-elle en pointant l'un des couloirs, prenez l'escalier et quand vous sortirez, il vous suffira alors de prendre à droite et d'avancer tout droit pour arriver à destination.
 Le visage de la dame s'illumina, comprennant probablement que son aventure serait bientôt terminée.
-- Merci beaucoup, c'est gentil de t'être arrêtée pour m'aider Léa. Passe une bonne journée. Je sûre qu'elle se passera bien.
+- Merci beaucoup, c'est gentil de t'être arrêtée pour m'aider <infos-lea>Léa</infos-lea>. Passe une bonne journée. Je sûre qu'elle se passera bien.
 La femme se dirigea vers la direction indiquée d'un pas pressée, avant de disparaître au premier tournant.
 
 
-Aider les personnes faisait toujours plaisir, Léa affichait un léger sourire tout en reprenant son chemin vers sa sortie à elle. Néanmoins, malgré ce sentiment de fierté d'avoir pu aider, quelque chose l'empêchait d'être pleinement satisfaite.
-Mais cette pensée s'évapora alors qu'elle retrouvait enfin la surface. <i>"Enfin un bouffée d'air frais !"</i>, une légère brise se faisait sentir et caressait doucement le visage, ce qui faisait du bien compte tenu de l'étuve que pouvaient devenir certaines rames de métro aux heures de pointe. Mais pas le temps de s'arrêter là, et en quelques minutes d'une marche proche de la course, Léa arriva enfin devant ses bâtiments.
+Aider les personnes faisait toujours plaisir, <infos-lea>Léa</infos-lea> affichait un léger sourire tout en reprenant son chemin vers sa sortie à elle. Néanmoins, malgré ce sentiment de fierté d'avoir pu aider, quelque chose l'empêchait d'être pleinement satisfaite.
+Mais cette pensée s'évapora alors qu'elle retrouvait enfin la surface. <i>"Enfin un bouffée d'air frais !"</i>, une légère brise se faisait sentir et caressait doucement le visage, ce qui faisait du bien compte tenu de l'étuve que pouvaient devenir certaines rames de métro aux heures de pointe. Mais pas le temps de s'arrêter là, et en quelques minutes d'une marche proche de la course, <infos-lea>Léa</infos-lea> arriva enfin devant ses bâtiments.
 
 <hr>
 
 
-Une ancienne porte en fer forgé, des murs épais qui grimpaient très haut, le bâtiment avait un certain côté de château fort qui plaisait beaucoup à Léa. Une fois passé la porte, on arrivait dans un énorme couloir au plafond tapissé d'épaisses poutres, aux vitres plus proches de vitraux que d'ouvertures vers l'extérieur et dont certains des murs étaient décorés de bustes d'anciens scientifiques célèbres.
+Une ancienne porte en fer forgé, des murs épais qui grimpaient très haut, le bâtiment avait un certain côté de château fort qui plaisait beaucoup à <infos-lea>Léa</infos-lea>. Une fois passé la porte, on arrivait dans un énorme couloir au plafond tapissé d'épaisses poutres, aux vitres plus proches de vitraux que d'ouvertures vers l'extérieur et dont certains des murs étaient décorés de bustes d'anciens scientifiques célèbres.
 Cet aspect ancien apportait une légère touche de magie à l'édifice et l'on n'aurait pas été étonné de voir des personnages bouger sur les tableaux ou encore un des bustes éternuer à cause de la poussière qui tapissait leur nez.
 
 
 - Ah ! Te voilà enfin !
-<i>"Pour une entrée discrète, c'est raté"</i> soupira intérieurement Léa tout en se tournant.
+<i>"Pour une entrée discrète, c'est raté"</i> soupira intérieurement <infos-lea>Léa</infos-lea> tout en se tournant.
 Cette voix, c'était celle d'Arthur, son encadrant de thèse. Il portait son veston habituel et une large pochette de documents sous le bras.
 - Peu importe, j'attends ton document de synthèse avec impatience. D'ailleurs, je ne t'avais pas prévenu, mais nous aurons des représentants externes demain pour ta présentation !
-Léa se figea.
+<infos-lea>Léa</infos-lea> se figea.
 - Des représentants externes …
 - Oui, mais pas d'inquiétude, on fait comme d'habitude. Ils poseront peut-être quelques questions en plus, mais rien de vraiment différent.
-- D'accord … fit Léa, un peu moins sûre d'elle. Elle n'appréciait que très peu de présenter devant du monde, et cette surprise était donc très loin de lui plaire … <i>"C'est une occasion de montrer tout ce qui a été réalisé sur le projet après tout …"</i> se dit-elle pour se motiver, sans grand succès.
+- D'accord … fit <infos-lea>Léa</infos-lea>, un peu moins sûre d'elle. Elle n'appréciait que très peu de présenter devant du monde, et cette surprise était donc très loin de lui plaire … <i>"C'est une occasion de montrer tout ce qui a été réalisé sur le projet après tout …"</i> se dit-elle pour se motiver, sans grand succès.
 - Je te laisse travailler maintenant, fit Arthur avant de s'éloigner vers la machine à café sur la gauche.
 
 
@@ -127,7 +127,7 @@ Cachée sous ce camouflage de verdure, une sorte de petite cabane pouvait être 
 <hr>
 
 
-Une fois son rapport fini et un rapide sandwich thon-crudité englouti, il ne restait plus qu'à Léa de préparer la présentation qu'elle allait devoir réaliser demain. Une fois de plus, l'enjeu important la laissa démunie quelques instants, avant que son esprit reprenne contrôle de la situation lance le logiciel et commence à structurer la forme qu'allait prendre cette dernière.
+Une fois son rapport fini et un rapide sandwich thon-crudité englouti, il ne restait plus qu'à <infos-lea>Léa</infos-lea> de préparer la présentation qu'elle allait devoir réaliser demain. Une fois de plus, l'enjeu important la laissa démunie quelques instants, avant que son esprit reprenne contrôle de la situation lance le logiciel et commence à structurer la forme qu'allait prendre cette dernière.
 Elle passa ainsi son après-midi à écrire des titres, créer des petits schémas et affiner sa présentation. C'était dans une certaine mesure la même chose que de devoir réaliser un album photo, si on excluait les enjeux, et elle s'appliqua à réaliser quelque chose de propre et facile à comprendre.
 Son après-midi passa ainsi, très vite et entrecoupé par les hululements de Tess, qui la sortait quelques instants de son intense concentration et lui permettait de faire une petite pause.
 C'est d'ailleurs un hululement de cette dernière qui lui fit réaliser qu'il était déjà tard, que sa présentation était déjà bien prête et donc qui sonna le gong de cette journée intensive.

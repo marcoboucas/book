@@ -46,11 +46,11 @@ function Accueil() {
   const additionalData = useSelector((state) => state.book.additionalData);
   const chapters = useSelector((state) => state.book.chapters);
 
-  const currentDate = new Date(Date.now());
-  const nextChapterDate = new Date(additionalData.nextChapterDate);
-  const dayInterval = Math.ceil(
-    (nextChapterDate - currentDate) / (60 * 60 * 24 * 1000),
-  );
+  // const currentDate = new Date(Date.now());
+  // const nextChapterDate = new Date(additionalData.nextChapterDate);
+  // const dayInterval = Math.ceil(
+  //   (nextChapterDate - currentDate) / (60 * 60 * 24 * 1000),
+  // );
 
   const nbrChapters = Math.min(chapters.length, additionalData.nbrPublicChapters);
 
@@ -106,13 +106,14 @@ function Accueil() {
           Commencer ma lecture
         </Button>
       </div>
-      <p className={classes.text}>
+
+      {/* <p className={classes.text}>
         Le chapitre suivant sera terminé dans moins de
         {' '}
         <span style={{ fontWeight: 'bold' }}>{dayInterval}</span>
         {' '}
         jours !
-      </p>
+      </p> */}
       <List subheader={(
         <ListSubheader button component="div" id="nested-list-subheader">
           Chapitres disponibles

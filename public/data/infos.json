@@ -1,0 +1,37 @@
+{
+    "elements": [
+        {
+            "type": "character",
+            "id": "vincent",
+            "name": "Vincent",
+            "img": "/book/images/vincent.webp",
+            "details": {
+                "age": 21,
+                "job": "Etudiant & Libraire"
+            },
+            "description": ""
+        },
+        {
+            "type": "character",
+            "id": "lea",
+            "name": "Léa",
+            "img": "/book/images/lea.webp",
+            "details": {
+                "age": 26,
+                "job": "Thésarde"
+            },
+            "description": "Si vous pouviez vous retrouver en face de Léa, vous pourriez voir une jeune femme aux longs cheveux bruns tombant sur ses épaules et quelques mèches de temps en temps rebelles qui s'amusaient à lui cacher la vue, éclipsant par la même occasion des yeux noisette teintés de lueurs dorées, surtout en présence du soleil. Une peau nacrée colorée par deux petits nuages rosés que formaient ses pommettes."
+        },
+        {
+            "type": "character",
+            "id": "eleanora",
+            "name": "El (Eleanora)",
+            "img": "/book/images/eleanora.webp",
+            "details": {
+                "age": 22,
+                "job": ""
+            },
+            "description": ""
+        }
+    ]
+}

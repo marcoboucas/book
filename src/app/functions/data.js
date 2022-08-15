@@ -24,3 +24,13 @@ export const getBook = async () => {
     return err;
   }
 };
+
+export const getBookInfos = async () => {
+  try {
+    const res = await fetch(`${process.env.PUBLIC_URL}/data/infos.json`);
+    return await res.json();
+  } catch (err) {
+    console.error(err);
+    return err;
+  }
+};
