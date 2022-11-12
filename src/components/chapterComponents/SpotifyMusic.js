@@ -10,10 +10,10 @@ function SpotifyMusic({ url }) {
     <Fade right>
       <iframe
         title="spotify-music"
-        style={{ borderRadius: "12px" }}
+        style={{ borderRadius: "12px", overflow: "visible" }}
         src={url}
         width="100%"
-        height="80"
+        height="100"
         frameBorder="0"
         allowFullScreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

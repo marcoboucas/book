@@ -1,17 +1,10 @@
 /* eslint-disable no-unused-vars */
+import { makeStyles, Modal, Paper } from "@material-ui/core";
 import React from "react";
-import {
-  Typography, makeStyles, Divider, Modal, Tooltip, Button, Container, Paper,
-} from "@material-ui/core";
-import Fade from "react-reveal/Fade";
 import { Trans } from "react-i18next";
 import { useSelector } from "react-redux";
-import sanitize from "../app/functions/text";
 import {
-  Image,
-  SpotifyMusic,
-  Separator,
-  DeezerMusic,
+  DeezerMusic, Image, Separator, SpotifyMusic,
 } from "./chapterComponents";
 import GeneralInfos from "./infos";
 
@@ -19,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
   modalPaper: {
     margin: theme.spacing(2),
     padding: theme.spacing(2),
+    maxHeight: "95vh",
+    overflowY: "auto",
+    overflowX: "hidden",
   },
 }));
 
@@ -58,7 +54,7 @@ function ChapterContent({ content, tagsInfos }) {
       <span
         style={{
           cursor: "help",
-          backgroundColor: "#ff000012",
+          backgroundColor: "#0054ff14",
           padding: 3,
           borderRadius: 5,
         }}
@@ -83,7 +79,7 @@ function ChapterContent({ content, tagsInfos }) {
       >
 
         <Paper className={classes.modalPaper}>
-          <GeneralInfos infos={currentOpenedModalData} />
+          <GeneralInfos infos={currentOpenedModalData} onClose={() => { setCurrentOpenedModal(""); }} />
         </Paper>
       </Modal>
       <Trans

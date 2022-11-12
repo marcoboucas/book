@@ -1,13 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
-import {
-  Typography, makeStyles, Grid, TableContainer, Paper, Table, TableBody, TableRow, TableCell, Modal,
-} from "@material-ui/core";
-import { Fade } from "react-reveal";
 import { useNavigate } from "react-router-dom";
 import CharacterInfos from "./CharacterInfos";
 
-function GeneralInfos({ infos }) {
+function GeneralInfos({ infos, onClose }) {
   const navigate = useNavigate();
   useEffect(() => {
     if (!infos || !infos.type) {
@@ -17,7 +13,7 @@ function GeneralInfos({ infos }) {
 
   switch (infos.type) {
     case "character":
-      return <CharacterInfos infos={infos} />;
+      return <CharacterInfos infos={infos} onClose={onClose} />;
 
     default:
       throw new Error(`Unknown element type: ${infos.type}`);

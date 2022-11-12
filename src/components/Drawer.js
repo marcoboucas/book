@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { Drawer } from '@material-ui/core';
-import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const drawerWidth = 300;
 

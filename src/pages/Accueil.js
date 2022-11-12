@@ -1,12 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from 'react-router-dom';
 import {
-  Button, makeStyles, Container, ListItem, List, ListItemText, ListSubheader,
-  Grid,
+  Button, Container, Grid, List, ListItem, ListItemText, ListSubheader, makeStyles,
 } from '@material-ui/core';
 import React from 'react';
-import { Fade } from 'react-reveal';
 import { useSelector } from 'react-redux';
+import { Fade } from 'react-reveal';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   text: {
@@ -61,7 +60,7 @@ function Accueil() {
         <Grid item xs={12} md={6}>
           <Fade>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <img src="/book/images/couverture.webp" alt="couverture" className={classes.couverture} />
+              <img src="/book/images/couverture.webp" alt="couverture" loading="lazy" className={classes.couverture} />
             </div>
           </Fade>
         </Grid>

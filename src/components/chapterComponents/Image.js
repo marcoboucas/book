@@ -1,5 +1,5 @@
-import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 const useStyles = makeStyles((theme) => ({
@@ -27,6 +27,7 @@ function Image({ path, alt, width }) {
           style={{
             width: width || '100%',
           }}
+          loading="lazy"
           onError={(e) => {
             e.target.onerror = null;
             e.target.style.display = 'none';

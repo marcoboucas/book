@@ -1,13 +1,14 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
 import {
-  Typography, makeStyles, Grid, TableContainer, Paper, Table, TableBody, TableRow, TableCell,
+  Button,
+  Grid, makeStyles, Table, TableBody, TableCell, TableContainer, TableRow, Typography,
 } from "@material-ui/core";
-import { Fade } from "react-reveal";
+import CloseIcon from '@material-ui/icons/Close';
+import React from "react";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: theme.spacing(2),
+    overflow: 'none',
   },
   name: {
     paddingTop: theme.spacing(2),
@@ -19,12 +20,23 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: '50%',
     padding: theme.spacing(2),
   },
+  closeButton: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    position: "absolute",
+    right: 0,
+  },
 }));
 
-function CharacterInfos({ infos }) {
+function CharacterInfos({ infos, onClose }) {
   const classes = useStyles();
   return (
-    <div className="root">
+    <div className={classes.root}>
+      <div className={classes.closeButton}>
+        <Button type="button" onClick={onClose}>
+          <CloseIcon />
+        </Button>
+      </div>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
           <div
@@ -75,6 +87,7 @@ function CharacterInfos({ infos }) {
           </TableContainer>
         </Grid>
       </Grid>
+      {infos.description && (
       <Grid container>
         <Grid item xs={12}>
           <Typography variant="h5" component="h2" className={classes.name}>
@@ -85,6 +98,7 @@ function CharacterInfos({ infos }) {
           </Typography>
         </Grid>
       </Grid>
+      )}
     </div>
   );
 }

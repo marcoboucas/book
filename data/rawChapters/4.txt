@@ -1,6 +1,10 @@
 id: 4
 title: Une <i>Sacrée</i> photo au <i>Coeur</i> de Paris
 tagsInfos:
+  imgDarkAlley:
+    tag: img
+    path: /book/images/dark-alley.webp
+    alt: Une allée sombre dans le quartier de Montmartre
   music:
     tag: music
     spotifyUrl: https://open.spotify.com/embed/track/27rdGxbavYJeBphck5MZAF?utm_source=generator
@@ -86,6 +90,8 @@ Un dernier regard vers le monument, elle soupira longuement avant de se diriger 
 <i>Pourquoi ça finit toujours comme ça ?</i> pensa-t-elle. Cela avait fait ressurgir de nombreux souvenirs, dont certains qu'elle aurait préféré laisser oubliés à jamais. Une histoire qui l'avait marqué et dont elle ne parlait jamais, préférant laisser enfoui la chose plutôt que de l'exposer au grand jour.
 Seuls quelques-uns de ses amis, un cercle restreint, en avait connaissance.
 Un bruit inhabituel retentit derrière elle, brisant le silence qui peu à peu prenait place sur le quartier. Elle jeta un regard, apercevant une silhouette bien plus loin derrière. Un homme, visiblement, qui semblait se diriger dans la même direction.
+
+<imgDarkAlley/>
 
 El accéléra le pas… Elle prit à droite et commença à descendre les marches d'un pas pressé. Ce n'était sûrement rien, mais quelque chose lui disait qu'il ne valait mieux pas trainer.
 

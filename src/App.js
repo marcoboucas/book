@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { IconButton } from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import { IconButton } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
 import LightIcon from '@material-ui/icons/Brightness4';
-import ProgressBar from 'react-scroll-progress-bar';
+import MenuIcon from '@material-ui/icons/Menu';
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import BookDrawer from './components/Drawer';
+import ProgressBar from 'react-scroll-progress-bar';
 import { getBook, getBookInfos } from './app/functions/data';
-import Reader from './pages/Reader';
-import Accueil from './pages/Accueil';
-import Infos from './pages/Infos';
 import { updateBook } from './app/slices/bookSlice';
 import { updateBookInfos } from './app/slices/infosSlice';
+import BookDrawer from './components/Drawer';
+import Accueil from './pages/Accueil';
+import Infos from './pages/Infos';
+import Reader from './pages/Reader';
 
 const useStyles = makeStyles((theme) => ({
   root: {
